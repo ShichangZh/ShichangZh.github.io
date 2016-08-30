@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script src="Chart.js"></script>
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+/* 
+Chart.defaults.global.responsive = 'false';
+ */ 
+var dataB = [
+             {
+                  x: 50,
+                  y: 50,
+                  r: 5
+              }
+          ];
+
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+	var n1 = 100 * Math.random();
+	var n2 = 100 * Math.random();
+	dataB.push(
+			{
+				x: n1,
+				y: n2,
+				r: 5
+			}	
+	);
+	
+	var dataB2 = {
+		    datasets: [
+		        {
+		            label: 'First Dataset',
+		            data: dataB,
+		            backgroundColor:"#FF6384",
+		            hoverBackgroundColor: "#FF6384",
+		        }]
+		};	
+	
+	var ctx = document.getElementById("myChart");
+	var myChart = new Chart(ctx,{
+	    type: 'bubble',
+	    data: dataB2,
+	    options:{
+ 	    	responsive: false,
+	    	responsiveAnimationDuration: 1500,
+	    	animation:{
+	    		duration:0
+	    	},
+			scales:{
+				display: false,
+				gridLines:{
+					display:false
+				}
+			},
+			/*scales:{
+				display: false		
+			} */
+			//still don't know how to use scale
+	    }
+	});
+};
+</script>
+</body>
+</html>
