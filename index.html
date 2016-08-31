@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script src="Chart.js"></script>
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+var dataB = [
+             {
+                  x: 50,
+                  y: 50,
+                  r: 5
+              }
+          ];
+
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+	var n1 = 30 * Math.random();
+    var n2 = 30 * Math.random();
+    var n3 = 30 * Math.random();
+    var n4 = 30 * Math.random();     
+
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        datasets: [{
+            label: '# of Votes',
+            data: [n1, n2, n3, n4, 2, 3],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+    	responsive:false,
+    	animation:{
+    		duration: 500
+    	},
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+
+
+    dataB.push(
+            {
+                x: n1,
+                y: n2,
+                r: 5
+            }   
+    );
+    
+    var dataB2 = {
+            datasets: [
+                {
+                    label: 'First Dataset',
+                    data: dataB,
+                    backgroundColor:"#FF6384",
+                    hoverBackgroundColor: "#FF6384",
+                }]
+        };  
+    
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx,{
+        type: 'bubble',
+        data: dataB2,
+        options:{
+            responsive: false,
+            responsiveAnimationDuration: 1500,
+            animation:{
+                duration:0
+            },
+            scales:{
+                display: false,
+                gridLines:{
+                    display:false
+                }
+            },
+            /*scales:{
+                display: false      
+            } */
+            //still don't know how to use scale
+        }
+    });
+};
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
