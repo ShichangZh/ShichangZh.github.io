@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Branching Process Simulation</title>
+  </head>
+  <body>
+    <h1>Birth and Assassination Branching Process</h1>
+    <h3>Author: Shichang Zhang</h3>
+    Take a look at the <a href="README.md" target="_blank">README</a> for information on the project and instructions.<br>
+    -------------------------------------------------<br>
+    The current particles produce offsprings following a poisson process. 
+    <br>
+    Arrival Rate: <input type = "text" name = "lambda" id = "lambda" value = "" style = "width: 30px"><br>
+    Killing Distribution Parameter:<input type = "text" name = "parameter" id = "parameter" value = "" style = "width: 30px"><br>
+    -------------------------------------------------<br>
+
+    <button onclick = "startSketch();">Start </button>
+    <button onclick = "resetSketch();">Reset</button>
+    <br>
+    
+    <iframe src="https://shichangzh.github.io/Birth-and-Assassination/" width="1000" height="500" scrolling="no"></iframe>
+
+    
+    <br>
+
+    <script type = "application/javascript">
+
+      function startSketch() {
+        switchSketchState(true);
+      }
+
+      function stopSketch() {
+        switchSketchState(false);
+      }
+
+    </script>
+  </body>
+</html>
