@@ -102,9 +102,9 @@ function update() {
   }
 
 
-  // for (m = 0; m < poisson(birth_rate); m++) { 
+  for (m = 0; m < poisson(birth_rate); m++) { 
 
-  for (m = 0; m < 1; m++) { 
+//   for (m = 0; m < 1; m++) { 
 
   // Add a new node to a random parent.
   var p_index = Math.random() * nodes.length,
