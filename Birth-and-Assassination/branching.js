@@ -46,22 +46,18 @@ var duration = 500
 var birth_rate = 1
 var bernoulli = 0.8
 
-
-var k = -1
 var death_id = []
 
 
 function update() {
 
-    var death_index = [],
-      death_root_index = [];
-
-  k++
+  var death_index = [],
+    death_root_index = [];
 
   if (nodes.length >= 300) return clearInterval(timer);
   
   if(Math.random() > bernoulli){  
-    for (m = 0; m < 4 & m < root.length; m++) { 
+    for (m = 0; m < root.length; m++) { 
 
       random_root_index = [Math.random() * root.length | 0]
       death_id = root[random_root_index].id
@@ -104,7 +100,7 @@ function update() {
 
   for (m = 0; m < poisson(birth_rate); m++) { 
 
-//   for (m = 0; m < 1; m++) { 
+  // for (m = 0; m < 1; m++) { 
 
   // Add a new node to a random parent.
   var p_index = Math.random() * nodes.length,
@@ -114,6 +110,19 @@ function update() {
   
   // choose a parent 
   p = nodes[p_index | 0];
+
+  if(p == null){
+    var warning = "All particles get killed. Please click 'Clear' and start again.\
+     \n Maybe choose a bigger killing parameter."
+
+    var text = svg.append("text")
+                  .attr("x", 30)
+                  .attr("y", 30)
+                  .attr("id", "endingText")
+                  .text( function (d) { return warning;})
+    return clearInterval(timer);
+  }
+
 
   // add a node to the parent and assign id to the child node
   if (p.children) {
@@ -143,7 +152,7 @@ function update() {
     node[i] = node[i].data(tree.nodes(root[i]), function(d) { return d.id; }); 
     link[i] = link[i].data(tree.links(nodes), function(d) { return d.source.id + "-" + d.target.id; });
 
-    // Move trees around when there are more than 1 tree.
+  // Move trees around when there are more than 1 tree.
   for(j = 0; j < nodes.length; j++){
       var is_descedant = allDeepEqual([nodes[j].id.slice(0, root[i].id.length), root[i].id])
       
@@ -176,7 +185,7 @@ function update() {
         });
   }
 
-    // Transition nodes and links to their new positions.
+  // Transition nodes and links to their new positions.
   var t = svg.transition()
       .duration(duration);
 
@@ -204,7 +213,8 @@ function stop(){
 function clearScreen(){
   svg.selectAll(".node").remove();
   svg.selectAll(".link").remove();
-
+  svg.selectAll("#endingText").remove();
+  
   root = [{}],
   nodes = [];
 
@@ -224,4 +234,3 @@ function clearScreen(){
   }
 
 }
-
