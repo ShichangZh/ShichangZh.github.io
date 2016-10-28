@@ -25,16 +25,54 @@ h2 {
 }
 
 h3 {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
-p, ul, ol {
+h4 {
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 0;
+	line-height: 180%;
+
+}
+
+p {
+	margin-left: 50;
+	margin-right: 100px;
 	margin-top: 0;
 	line-height: 180%;
 }
 
 ul, ol {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 0;
+	line-height: 180%;
 }
+}
+
+div.absolute {
+    position: absolute;
+    margin-left: 200px;
+    left: 200px;
+    width: 800px;
+} 
+
+
+.button {
+    background-color: #000000;
+    color: #FFFFFF;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+
+
 
 a {
 	text-decoration: none;
@@ -213,7 +251,7 @@ img.aligncenter {
 /* Page */
 
 #page {
- 	background: url(images/image01.git) repeat-y center top;
+ 	background: url(images/img01.gif) repeat-y center top;
 }
 
 /*#page-bgtop {
@@ -372,8 +410,7 @@ img.aligncenter {
 	width: 960px;
 	height: 55px;
 	margin: 0px auto 40px auto;
-	background: url(images/img07.gif) no-repeat center top;
-	font-family: Arial, Helvetica, sans-serif;
+		font-family: Arial, Helvetica, sans-serif;
 }
 
 #footer p {
@@ -393,4 +430,14 @@ img.aligncenter {
 #banner {
 	margin-top: 20px;
 	margin-bottom: 30px;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
 }
