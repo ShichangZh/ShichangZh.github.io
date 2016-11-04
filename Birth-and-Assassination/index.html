@@ -24,33 +24,29 @@
         </div>
 
   <h4>
-    This is an undergraduate research project. A dynamic visualization of a special branching processes, called the "Birth and Assassination" process, a modification of the Galton-Watson branching process. 
-
-    This project is based on a paper written by David Aldous, a professor of statistics department of the University of California, Berkeley.
-
-    The original paper can be found  <a href = "https://www.stat.berkeley.edu/~aldous/Papers/me44.pdf">here</a>
+   This page shows a dynamic visualization of the "Birth and Assassination" process, studied in a 1990 paper by Aldous and Krebs which can be found
+   <a href = "https://www.stat.berkeley.edu/~aldous/Papers/me44.pdf">here</a>.
+   The work was done as an undergraduate research project in the U.C. Berkeley Statistics Department in Fall 2016. 
   </h4>
 
   <h4>
-    This is a variation of the simple Galton-Walton branching process, which the particle's death only happens if its is parent dead. Thus each particle has an initial period of time in which it can producing offspring but is not at risk of dying; While the particle lives, all of its descendants may have
-    their own offspring, but none of them are at risk of dying. 
+    The process is a variation of the Yule process, that is the continuous time “pure birth” branching process.  In this variation a particle can die, but only if its parent is already dead. So the population consists of “families” represented as trees, with only the head of the family at risk of dying.  Each living particle produces offspring according to a Poisson process of some birth rate, and each head of family is killed at some (stochastic) rate.  When one head dies, the offspring become heads of separate families.  The theoretical result is that the process has non-zero probability of surviving forever if and only if the ratio (birth rate)/(killing rate) is larger than 1/4.
 
-    Note that current particles produce offsprings following a poisson process.
-  
-    Both the birth and killing distribution can be determined by the user by setting the parameters below.
   </h4>
 
   <h4>
-    The current particles produce offsprings following a poisson process.
-    Set the poisson arrival rate: <input type = "text" name = "lambda" id = "lambda" value = "" style = "width: 30px">
+    The simulation runs in discretized time. 
+    Set the Poisson arrival rate here: <input type = "text" name = "lambda" id = "lambda" value = "" style = "width: 30px">
+    (suggested rate: xxx)
   </h4>
 
   <h4> 
-    An classic example of the killing distribution is the Berboulli distribution. The parameter, between 0 to 1, means the probability one particle will survive in a certain turn. Set the Berboulli parameter: <input type = "text" name = "parameter" id = "parameter" value = "" style = "width: 30px"> 
+    Set the killing rate here: <input type = "text" name = "parameter" id = "parameter" value = "" style = "width: 30px"> 
+    (suggested value: xxx)
   </h4> 
 
   <h4> 
-    You may also set the update duration to make the animation faster or slower: <input type = "text" name = "duration" id = "duration" value = "" style = "width: 30px"> millisecond (like 500).
+    Set the update duration (milliseconds) here to make the animation faster or slower: <input type = "text" name = "duration" id = "duration" value = "" style = "width: 30px"> (suggested value: 500).
   </h4>
 
   <script type="text/javascript">
