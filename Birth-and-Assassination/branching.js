@@ -54,7 +54,7 @@ function update() {
   var death_index = [],
     death_root_index = [];
 
-  if (nodes.length >= 300) return clearInterval(timer);
+  if (nodes.length >= 1000) return clearInterval(timer);
   
   if(Math.random() > bernoulli){  
     for (m = 0; m < root.length; m++) { 
