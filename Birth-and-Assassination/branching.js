@@ -112,8 +112,7 @@ function update() {
   p = nodes[p_index | 0];
 
   if(p == null){
-    var warning = "All particles get killed. Please click 'Clear' and start again.\
-     \n Maybe choose a bigger killing parameter."
+    var warning = "All particles get killed. Please click 'Clear' and start again."
 
     var text = svg.append("text")
                   .attr("x", 30)
