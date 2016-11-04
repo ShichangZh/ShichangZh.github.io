@@ -98,7 +98,7 @@ function update() {
   }
 
 
-  for (m = 0; m < poisson(birth_rate); m++) { 
+  for (m = 0; m < poisson(birth_rate) * (nodes.length + 1); m++) { 
 
   // for (m = 0; m < 1; m++) { 
 
@@ -231,5 +231,5 @@ function clearScreen(){
     node[i] = svg.selectAll(".node")
     link[i] = svg.selectAll(".link")
   }
-
+  clearInterval(timer);
 }
