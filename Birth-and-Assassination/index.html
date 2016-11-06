@@ -37,16 +37,20 @@
   <h4>
     The simulation runs in discretized time. 
     Set the Poisson arrival rate here: <input type = "text" name = "lambda" id = "lambda" value = "" style = "width: 30px">
-    (suggested rate: xxx)
+    (suggested rate: 5)
   </h4>
 
   <h4> 
     Set the killing rate here: <input type = "text" name = "parameter" id = "parameter" value = "" style = "width: 30px"> 
-    (suggested value: xxx)
+    (suggested value: 3)
   </h4> 
 
   <h4> 
-    Set the update duration (milliseconds) here to make the animation faster or slower: <input type = "text" name = "duration" id = "duration" value = "" style = "width: 30px"> (suggested value: 500).
+    Set the update duration (milliseconds) here to make the animation faster or slower: <input type = "text" name = "duration" id = "duration" value = "" style = "width: 30px"> (suggested value: 100).
+  </h4>
+
+  <h4> 
+    Note: sometimes the program ends as soon as you click 'Start'. That is because the first particle gets killed even before it produces its first offspring. This happens a lot especially when the killing rate is relatively high. Just click 'Clear' and start a new simulation.
   </h4>
 
   <script type="text/javascript">
