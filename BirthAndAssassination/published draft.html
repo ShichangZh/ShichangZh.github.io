@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <title>Branching Process Simulation</title>
+    <style> @import "style.css" </style>
+
+    <script src = "d3.v3.js"></script>
+    <script src = "d3.js"></script>
+    <script src = "equal arrays.js"></script>
+    <script src = "flatten array.js"></script>
+    <script src = "poisson.js"></script>
+
+</head>
+
+<body>
+  <div id="header-wrapper">
+    <div id="header">
+      <div id="logo">
+        <h2>The "Birth and Assassination" Branching Process</h2>
+          <p>Author: Shichang Zhang &nbsp &nbsp &nbsp University of California, Berkeley</p>
+            </div>
+          </div>
+        </div>
+
+  <h4>
+    This is an undergraduate research project. A dynamic visualization of a special branching processes, called the "Birth and Assassination" process, a modification of the Galton-Watson branching process. 
+
+    This project is based on a paper written by David Aldous, a professor of statistics department of the University of California, Berkeley.
+
+    The original paper can be found  <a href = "https://www.stat.berkeley.edu/~aldous/Papers/me44.pdf">here</a>
+  </h4>
+
+  <h4>
+    This is a variation of the simple Galton-Walton branching process, which the particle's death only happens if its is parent dead. Thus each particle has an initial period of time in which it can producing offspring but is not at risk of dying; While the particle lives, all of its descendants may have
+    their own offspring, but none of them are at risk of dying. 
+
+    Note that current particles produce offsprings following a poisson process.
+  
+    Both the birth and killing distribution can be determined by the user by setting the parameters below.
+  </h4>
+
+  <h4>
+    The current particles produce offsprings following a poisson process.
+    Set the poisson arrival rate: <input type = "text" name = "lambda" id = "lambda" value = "" style = "width: 30px">
+  </h4>
+
+  <h4> 
+    An classic example of the killing distribution is the Berboulli distribution. The parameter, between 0 to 1, means the probability one particle will survive in a certain turn. Set the Berboulli parameter: <input type = "text" name = "parameter" id = "parameter" value = "" style = "width: 30px"> 
+  </h4> 
+
+  <h4> 
+    You may also set the update duration to make the animation faster or slower: <input type = "text" name = "duration" id = "duration" value = "" style = "width: 30px"> millisecond (default is 500).
+  </h4>
+
+  <script type="text/javascript">
+    function initializing(){
+      duration = document.getElementById('duration').value
+      birth_rate = document.getElementById('lambda').value
+      bernoulli = document.getElementById('parameter').value
+      start()
+    }
+  </script>
+
+  <div id="buttons" align = "center">
+    <button onclick = "initializing()" >Start</button>  Click 'Start' to start a new simulation or resume a paused one.<br>
+    <button onclick = "stop()">Stop</button>   Click 'Stop' to pause the simulation at any time you want.<br>
+    <button onclick = "clearScreen()" >Clear</button>   Click 'Clear' after you stop to get ready to start a new simulation.<br>
+    <audio src="music/queen.mp3" controls="" loop=""></audio>   The simulation will look better if you watch it together with this song by the Queen.
+
+  </div>
+  <br>
+    
+  <div id="canvas" align="center"></div>
+</body>
+
+
+    <script src = "branching.js"></script>
+
+</html>
