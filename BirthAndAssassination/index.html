@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <title>Branching Process Simulation</title>
+    <style> @import "style.css" </style>
+
+    <script src = "d3.v3.js"></script>
+    <script src = "d3.js"></script>
+    <script src = "equal arrays.js"></script>
+    <script src = "flatten array.js"></script>
+    <script src = "poisson.js"></script>
+
+</head>
+
+<body>
+  <div id="header-wrapper">
+    <div id="header">
+      <div id="logo">
+        <h2>The "Birth and Assassination" Branching Process</h2>
+          <p>Author: Shichang Zhang &nbsp &nbsp &nbsp University of California, Berkeley</p>
+            </div>
+          </div>
+        </div>
+
+  <h4>
+   This page shows a dynamic visualization of the "Birth and Assassination" process, studied in a 1990 paper by Aldous and Krebs which can be found
+   <a href = "https://www.stat.berkeley.edu/~aldous/Papers/me44.pdf">here</a>.
+   The work was done as an undergraduate research project in the U.C. Berkeley Statistics Department in Fall 2016. 
+  </h4>
+
+  <h4>
+    The process is a variation of the Yule process, that is the continuous time “pure birth” branching process.  In this variation a particle can die, but only if its parent is already dead. So the population consists of “families” represented as trees, with only the head of the family at risk of dying.  Each living particle produces offspring according to a Poisson process of some birth rate, and each head of family is killed at some (stochastic) rate.  When one head dies, the offspring become heads of separate families.  The theoretical result is that the process has non-zero probability of surviving forever if and only if the ratio (birth rate)/(killing rate) is larger than 1/4.
+
+  </h4>
+
+  <h4>
+    The simulation runs in discretized time. 
+    Set the Poisson arrival rate here: <input type = "text" name = "lambda" id = "lambda" value = "" style = "width: 30px">
+    (suggested rate: 3)
+  </h4>
+
+  <h4> 
+    Set the killing rate here: <input type = "text" name = "parameter" id = "parameter" value = "" style = "width: 30px"> 
+    (suggested rate: 3)
+  </h4> 
+
+  <h4> 
+    Set the update duration (milliseconds) here to make the animation faster or slower: <input type = "text" name = "duration" id = "duration" value = "" style = "width: 30px"> (suggested value: 100).
+  </h4>
+
+  <h4> 
+    Note: sometimes the program ends as soon as you click 'Start'. That is because the first particle gets killed even before it produces its first offspring. This happens a lot especially when the killing rate is relatively high. Just click 'Clear' and start a new simulation.
+  </h4>
+
+  <script type="text/javascript">
+    function initializing(){
+      duration = document.getElementById('duration').value
+      birth_rate = document.getElementById('lambda').value
+      killing_rate = document.getElementById('parameter').value
+      start()
+    }
+  </script>
+
+  <div id="buttons" align = "center">
+    <button onclick = "initializing()" >Start</button>  Click 'Start' to start a new simulation or resume a paused one.<br>
+    <button onclick = "stop()">Stop</button>  Click 'Stop' to pause the current simulation at any time you want.<br>
+    <button onclick = "clearScreen()" >Clear</button>   Click 'Clear' to clear the screen and get ready for a new simulaiton.<br>
+    <audio src="music/queen.mp3" controls="" loop=""></audio>   The simulation will look better if you watch it together with this song by the Queen.
+
+  </div>
+  <br>
+    
+  <div id="canvas" align="center"></div>
+</body>
+
+
+    <script src = "branching.js"></script>
+
+</html>
