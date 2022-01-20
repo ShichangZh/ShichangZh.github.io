@@ -1,0 +1,38 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+== Shichang Zhang 
+
+~~~
+{}{img_left}{img/bio.png}{alt text}{260}{270}{https://shichangzh.github.io/}
+=== About Me
+I am currently a third-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. [cv/shichangzhang_cv.pdf CV].
+
+=== Contact
+3551 (ScAI Lab), Bolter Hall, UCLA, CA, 90095 \n
+E-mail: /shichang/ AT cs DOT ucla DOT edu
+~~~
+
+# == What's New
+# - \[Nov 2021\] First Launch of my website \n
+
+# [news.html Find out more]
+
+== Research Interests
+My research interests include 
+- Graph Neural Network
+- Self-supervised Learning
+- Explainable AI
+- Generative Models
+- Machine Learning in General
+
+== Publications and Pre-prints
+. Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation (*ICLR 2022*) \n
+ *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]]
+. Graph Condensation for Graph Neural Networks (*ICLR 2022*) \n
+Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [https://arxiv.org/pdf/2110.07580.pdf \[PDF\]]
+. Motif-driven Contrastive Learning of Graph Representations (*SSL@WWW2021*) \n
+*Shichang Zhang*, Ziniu Hu, Arjun Subramonian, Yizhou Sun
+[https://arxiv.org/pdf/2012.12533.pdf \[PDF\]]
+
+[research.html Full list of publications]\n
+
+
