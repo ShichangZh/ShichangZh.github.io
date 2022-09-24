@@ -4,7 +4,7 @@
 ~~~
 {}{img_left}{img/bio.png}{alt text}{260}{270}{https://shichangzh.github.io/}
 === About Me
-I am currently a third-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. [cv/shichangzhang_cv.pdf \[CV\]]
+I am currently a forth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. [cv/shichangzhang_cv.pdf \[CV\]]
 
 === Contact
 3551 (ScAI Lab), Bolter Hall, UCLA, CA, 90095 \n
@@ -13,9 +13,10 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 ~~~
 
 == What's New
+- \[Sept 2022\] One paper on GNN explanation is accepted by NeurIPS 2022 [https://arxiv.org/abs/2201.12380.pdf \[Paper\]]\n
 - \[July 2022\] Selected as the top 10% of reviewers for ICML 2022 \n
 - \[April 2022\] A draft chapter of [miscellaneous/A_Trip_from_Machine_Learning_to_Measure_and_Probability.pdf A Trip from Machine Learning to Measure and Probability] \n
-- \[Jan 2022\] Two papers on graph distillation and graph condensation accepted by ICLR 2022 \n
+- \[Jan 2022\] Two papers on graph distillation and graph condensation are accepted by ICLR 2022 [https://arxiv.org/pdf/2110.08727.pdf \[Paper1\]] [https://arxiv.org/pdf/2110.07580.pdf \[Paper2\]] \n
 - \[Nov 2021\] The first draft of [miscellaneous/Explainability.pdf Explainability Mind Map] \n
 
 
@@ -31,7 +32,7 @@ My research interests include
 - Machine Learning in General
 
 == Publications and Pre-prints
-. Explaining Graph Neural Networks with Structure-Aware Cooperative Games (Pre-print) \n
+. Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
  *Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun [https://arxiv.org/abs/2201.12380.pdf \[PDF\]]
 . Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation (*ICLR 2022*) \n
  *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[code\]]
