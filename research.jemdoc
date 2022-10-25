@@ -2,8 +2,10 @@
 ==Shichang Zhang 
 
 == Publications and Pre-prints
+. Linkless Link Prediction via Relational Distillation (preprint) \n
+Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]]
 . Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
- *Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun [https://arxiv.org/abs/2201.12380.pdf \[PDF\]]
+ *Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun [https://arxiv.org/abs/2201.12380.pdf \[PDF\]][https://github.com/ShichangZh/GStarX \[code\]]
 . Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation (*ICLR 2022*) \n
  *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[code\]]
 . Graph Condensation for Graph Neural Networks (*ICLR 2022*) \n
