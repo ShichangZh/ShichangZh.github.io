@@ -3,7 +3,7 @@
 
 == Publications and Pre-prints
 . PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
-Shichang Zhang, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun.
+*Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun.
 . Linkless Link Prediction via Relational Distillation (preprint) \n
 Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]]
 . Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
