@@ -18,6 +18,7 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 ~~~
 
 == What's New
+- \[Feb 2023\] Give a talk on the GStarX paper at AI TIME NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]] \n
 - \[Jan 2023\] One paper on GNN explanation for link prediction is accepted by WWW 2023 \n
 - \[Sept 2022\] One paper on GNN explanation is accepted by NeurIPS 2022 [https://arxiv.org/abs/2201.12380.pdf \[Paper\]]\n
 - \[July 2022\] Selected as the top 10% of reviewers for ICML 2022 \n
@@ -43,7 +44,7 @@ My research interests include
 *Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun.
 . Linkless Link Prediction via Relational Distillation (preprint) \n
 Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]]
-. Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
+. GStarX: Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
  *Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun [https://arxiv.org/abs/2201.12380.pdf \[PDF\]] [https://github.com/ShichangZh/GStarX \[code\]]
 . Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation (*ICLR 2022*) \n
  *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[code\]]
