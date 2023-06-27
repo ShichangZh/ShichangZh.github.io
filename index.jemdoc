@@ -6,6 +6,8 @@
 === About Me
 I am currently a forth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. [cv/shichangzhang_cv.pdf \[CV\]]
 
+# My research is supported by the Amazon Science Fellowship and J.P.Morgan Chase AI PhD Fellowship.
+
 I am organizing the UCLA Data Mining Reading Group. We cover interesting graph machine learning papers every week. Please check the past slides and recordings [https://ucla-dm.github.io/DM_website/reading/paper.html here]. The reading group also dig deep into one interesting AI topic each quarter. The topic for this quarter is Neural Radiance Fields (NeRF). In the past, we have covered diffusion models, large language models, differential geometry, graphical models, and spectral graph theory. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My personal presentations at the reading group can be found under [talks.html Talks].
 
 
@@ -16,6 +18,9 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 ~~~
 
 == What's New
+#- \[June 2023\] I am excited to receive the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship] \n
+#- \[June 2023\] I am excited to be selected as one of the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellows 2023] \n
+- \[June 2023\] Our survey paper on GNN acceleration is on arXiv now, which covers algorithms, systems, and customized hardware [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
 - \[April 2023\] One paper on GNN distillation for link prediction is accepted by ICML 2023 [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] \n
 - \[Feb 2023\] Give a talk on the GStarX paper at AI TIME NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]] \n
 - \[Jan 2023\] One paper on GNN explanation for link prediction is accepted by WWW 2023 [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]] \n
@@ -35,6 +40,8 @@ My research interests include
 
 
 == Publications and Pre-prints
+. A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
+*Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
 . PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
 *Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun. [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]][https://github.com/amazon-science/page-link-path-based-gnn-explanation \[code\]]
 . Linkless Link Prediction via Relational Distillation (*ICML 2023*) \n
@@ -52,3 +59,9 @@ Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [ht
 [research.html Full list of publications]\n
 
 
+#== Honors and Awards
+#- J.P.Morgan Chase AI PhD Fellowship, 2023
+#- Amazon Fellow, 2023
+#- [https://research.snap.com/fellowships.html Snap Research Fellowship Honorable Mention 2022]
+#- ICML Top Reviewer (Top 10\%), 2022
+#- UCLA Graduate Division Fellowship, 2021
