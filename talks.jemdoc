@@ -1,9 +1,11 @@
 # jemdoc: menu{MENU}{index.html}, nofooter  
 ==Shichang Zhang 
 
-== Recent Talks
+== Paper Talks
 - Graph Neural Network Explanation for Heterogeneous Link Prediction \n
-\[05/2023\] The Web Conference 2023: Fairness, Accountability, Transparency and Ethics (F.A.T.E.) on the Web [slides/2023_05_PaGELink_WWW.pdf \[slides\]]
+-- \[05/2023\] The Web Conference 2023: Fairness, Accountability, Transparency and Ethics (F.A.T.E.) on the Web [slides/2023_05_PaGELink_WWW.pdf \[slides\]] \n
+-- \[07/2023\] Amazon Trans.AI Research Talks [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
+
 - Structure-Aware Graph Neural Network Explanation \n
 \[02/2023\] AI Time NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]]
 - Graph-less Neural Networks \n
