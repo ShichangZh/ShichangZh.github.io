@@ -4,9 +4,12 @@
 ~~~
 {}{img_left}{img/bio.png}{alt text}{260}{270}{https://shichangzh.github.io/}
 === About Me
-I am currently a forth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. [cv/shichangzhang_cv.pdf \[CV\]]
+I am currently a forth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. [cv/shichangzhang_cv.pdf \[CV\]]
+
+
 
 # My research is supported by the Amazon Science Fellowship and J.P.Morgan Chase AI PhD Fellowship.
+
 
 I am organizing the UCLA Data Mining Reading Group. We cover interesting graph machine learning papers every week. Please check the past slides and recordings [https://ucla-dm.github.io/DM_website/reading/paper.html here]. The reading group also dig deep into one interesting AI topic each quarter. The topic for this quarter is Neural Radiance Fields (NeRF). In the past, we have covered diffusion models, large language models, differential geometry, graphical models, and spectral graph theory. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My personal presentations at the reading group can be found under [talks.html Talks].
 
@@ -18,7 +21,7 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 ~~~
 
 == What's New
-#- \[June 2023\] I am excited to receive the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship] \n
+- \[July 2023\] I am excited to receive the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship] \n
 #- \[June 2023\] I am excited to be selected as one of the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellows 2023] \n
 - \[July 2023\] Give a talk on the PaGE-Link paper at Amazon Trans.AI Research Talk Series [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
 - \[June 2023\] Our survey paper on GNN acceleration is on arXiv now, which covers algorithms, systems, and customized hardware [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
