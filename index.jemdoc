@@ -2,22 +2,22 @@
 == Shichang Zhang 
 
 ~~~
-{}{img_left}{img/bio.png}{alt text}{260}{270}{https://shichangzh.github.io/}
+{}{img_left}{img/bio.png}{alt text}{285}{300}{https://shichangzh.github.io/}
 === About Me
-I am currently a forth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. [cv/shichangzhang_cv.pdf \[CV\]]
+I am currently a forth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. 
 
 
 
 # My research is supported by the Amazon Science Fellowship and J.P.Morgan Chase AI PhD Fellowship.
 
 
-I am organizing the UCLA Data Mining Reading Group. We cover interesting graph machine learning papers every week. Please check the past slides and recordings [https://ucla-dm.github.io/DM_website/reading/paper.html here]. The reading group also dig deep into one interesting AI topic each quarter. The topic for this quarter is Neural Radiance Fields (NeRF). In the past, we have covered diffusion models, large language models, differential geometry, graphical models, and spectral graph theory. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My personal presentations at the reading group can be found under [talks.html Talks].
+I am organizing the UCLA Data Mining Reading Group. We cover interesting graph machine learning papers every week. Please check the past slides and recordings [https://ucla-dm.github.io/DM_website/reading/paper.html here]. The reading group also dig deep into one interesting AI topic each quarter. The topic for this quarter is Neural Radiance Fields (NeRF). In the past, we have covered diffusion models, large language models, differential geometry, probabilistic graphical models, and spectral graph theory. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My personal presentations at the reading group can be found under [talks.html Talks].
 
 
 === Contact
 3551 (ScAI Lab), Bolter Hall, UCLA, CA, 90095 \n
 E-mail: /shichang/ AT cs DOT ucla DOT edu \n
-[https://scholar.google.com/citations?user=TYqG0x4AAAAJ&hl=en&oi=ao \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://twitter.com/ShichangZhang \[Twitter\]] [https://www.linkedin.com/in/shichang-zhang-4430a4106/ \[LinkedIn\]]
+[https://scholar.google.com/citations?user=TYqG0x4AAAAJ&hl=en&oi=ao \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://twitter.com/ShichangZhang \[Twitter\]] [https://www.linkedin.com/in/shichang-zhang-4430a4106/ \[LinkedIn\]][cv/shichangzhang_cv.pdf \[CV\]]
 ~~~
 
 == What's New
@@ -63,9 +63,9 @@ Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [ht
 [research.html Full list of publications]\n
 
 
-#== Honors and Awards
-#- J.P.Morgan Chase AI PhD Fellowship, 2023
-#- Amazon Fellow, 2023
-#- [https://research.snap.com/fellowships.html Snap Research Fellowship Honorable Mention 2022]
-#- ICML Top Reviewer (Top 10\%), 2022
-#- UCLA Graduate Division Fellowship, 2021
+== Honors and Awards
+- [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship], 2023
+#- Amazon PhD Fellow, 2023
+- [https://research.snap.com/fellowships.html Snap Research Fellowship Honorable Mention], 2022
+- ICML Top Reviewer (Top 10\%), 2022
+- UCLA Graduate Division Fellowship, 2021
