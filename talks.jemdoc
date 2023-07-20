@@ -1,68 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Shichang Zhang </title>
-</head>
-<body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Menu</div>
-<div class="menu-item"><a href="index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="research.html">Research</a></div>
-<div class="menu-item"><a href="teaching.html">Teaching</a></div>
-<div class="menu-item"><a href="talks.html">Talks</a></div>
-<div class="menu-item"><a href="miscellaneous.html">Miscellaneous</a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>Shichang Zhang </h1>
-</div>
-<h2>Paper Talks</h2>
-<ul>
-<li><p>Graph Neural Network Explanation for Heterogeneous Link Prediction <br /></p>
-<ul>
-<li><p>[05/2023] The Web Conference 2023: Fairness, Accountability, Transparency and Ethics (F.A.T.E.) on the Web <a href="slides/2023_05_PaGELink_WWW.pdf" target=&ldquo;blank&rdquo;>[slides]</a> <br /></p>
-</li>
-<li><p>[07/2023] Amazon Trans.AI Research Talks <a href="slides/2023_07_PaGELink_AmazonTransAI.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
-</li>
-</ul>
+# jemdoc: menu{MENU}{index.html}, nofooter  
+==Shichang Zhang 
 
-</li>
-</ul>
-<ul>
-<li><p>Structure-Aware Graph Neural Network Explanation <br />
-[02/2023] AI Time NeurIPS Talk Series <a href="slides/2023_02_GStarX_AI_Time.pdf" target=&ldquo;blank&rdquo;>[slides]</a><a href="https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb" target=&ldquo;blank&rdquo;>[video (in Chinese, starting from 00:19:05)]</a></p>
-</li>
-<li><p>Graph-less Neural Networks <br />
-[05/2022] NVIDIA GNN Reading Group <a href="slides/2022_05_GLNN_NVIDIA.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
-</li>
-</ul>
-<h2>UCLA Data Mining Reading Group</h2>
-<ul>
-<li><p>[11/2022] Recent Progess in GNN Explainability <a href="slides/2022_11_GNN_Explainability2.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
-</li>
-<li><p>[10/2022] Diffusion Models For Text To Image Generation <a href="slides/2022_10_Diffusion_models_for_text_to_image_generation.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
-</li>
-<li><p>[04/2022] The Lottery Ticket Hypothesis and Its Application on GNNs <a href="slides/2022_04_The_Lottery_Ticket_Hypothesis.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
-</li>
-<li><p>[11/2021] GNN Explainability <a href="slides/2021_11_GNN_Explainability.pdf" target=&ldquo;blank&rdquo;>[slides]</a><a href="miscellaneous/Explainability.pdf" target=&ldquo;blank&rdquo;>[mind map]</a></p>
-</li>
-<li><p>[04/2021] Gaussian Process and Determinantal Point Process <a href="slides/2021_04_Gaussian_Process_and_Determinantal_Point_Process.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
-</li>
-<li><p>[01/2021] Analyzing GNNs, A Spectral Perspective<a href="slides/2021_01_Analyzing_GNNs_A_Spectral_Perspective.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
-</li>
-<li><p>[05/2020] From Variational Inference to Variational Auto Encoder <a href="slides/2020_05_From_Variational_Inference_to_Variational_Auto_Encoder.pdf" target=&ldquo;blank&rdquo;>[slides]</a></p>
-</li>
-<li><p>[09/2019] Probability and Sampling Methods <a href="slides/2019_09_sampling1.pdf" target=&ldquo;blank&rdquo;>[slides part1]</a> <a href="slides/2019_09_sampling2.pdf" target=&ldquo;blank&rdquo;>[slides part2]</a></p>
-</li>
-</ul>
-</td>
-</tr>
-</table>
-</body>
-</html>
+== Paper Talks
+- Graph Neural Network Explanation for Heterogeneous Link Prediction \n
+-- \[May 2023\] The Web Conference 2023: Fairness, Accountability, Transparency and Ethics (F.A.T.E.) on the Web [slides/2023_05_PaGELink_WWW.pdf \[slides\]] \n
+-- \[July 2023\] Amazon Trans.AI Research Talks [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
+
+- Structure-Aware Graph Neural Network Explanation \n
+\[Feb 2023\] AI Time NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]]
+- Graph-less Neural Networks \n
+\[May 2022\] NVIDIA GNN Reading Group [slides/2022_05_GLNN_NVIDIA.pdf \[slides\]]
+
+== UCLA Data Mining Reading Group
+
+- \[Nov 2022\] Recent Progress in GNN Explainability [slides/2022_11_GNN_Explainability2.pdf \[slides\]]
+- \[Oct 2022\] Diffusion Models For Text To Image Generation [slides/2022_10_Diffusion_models_for_text_to_image_generation.pdf \[slides\]]
+- \[April 2022\] The Lottery Ticket Hypothesis and Its Application on GNNs [slides/2022_04_The_Lottery_Ticket_Hypothesis.pdf \[slides\]]
+- \[Nov 2021\] GNN Explainability [slides/2021_11_GNN_Explainability.pdf \[slides\]][miscellaneous/Explainability.pdf \[mind map\]]
+- \[April 2021\] Gaussian Process and Determinantal Point Process [slides/2021_04_Gaussian_Process_and_Determinantal_Point_Process.pdf \[slides\]]
+- \[Jan 2021\] Analyzing GNNs, A Spectral Perspective [slides/2021_01_Analyzing_GNNs_A_Spectral_Perspective.pdf \[slides\]]
+- \[May 2020\] From Variational Inference to Variational Auto Encoder [slides/2020_05_From_Variational_Inference_to_Variational_Auto_Encoder.pdf \[slides\]]
+- \[Sept 2019\] Probability and Sampling Methods [slides/2019_09_sampling1.pdf \[slides part1\]] [slides/2019_09_sampling2.pdf \[slides part2\]]
