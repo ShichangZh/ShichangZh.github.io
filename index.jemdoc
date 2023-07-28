@@ -4,14 +4,14 @@
 ~~~
 {}{img_left}{img/bio.png}{alt text}{285}{300}{https://shichangzh.github.io/}
 === About Me
-I am currently a forth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. 
+I am currently a fourth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. 
 
 
 
-# My research is supported by the Amazon Science Fellowship and J.P.Morgan Chase AI PhD Fellowship.
+# My research is supported by the Amazon Science Fellowship and J.P. Morgan Chase AI PhD Fellowship.
 
 
-I am organizing the UCLA Data Mining Reading Group. We cover interesting graph machine learning papers every week. Please check the past slides and recordings [https://ucla-dm.github.io/DM_website/reading/paper.html here]. The reading group also dig deep into one interesting AI topic each quarter. The topic for this quarter is Neural Radiance Fields (NeRF). In the past, we have covered diffusion models, large language models, differential geometry, probabilistic graphical models, and spectral graph theory. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My personal presentations at the reading group can be found under [talks.html Talks].
+I organize the UCLA Data Mining Reading Group. We cover interesting graph machine learning papers every week. Please check the past slides and recordings [https://ucla-dm.github.io/DM_website/reading/paper.html here]. The reading group also digs deep into one cutting-edge AI research topic each quarter. The topic for this quarter is Neural Radiance Fields (NeRF). In the past, we have covered diffusion models, large language models, differential geometry, probabilistic graphical models, and spectral graph theory. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My personal presentations at the reading group can be found under [talks.html Talks].
 
 
 === Contact
@@ -21,8 +21,8 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 ~~~
 
 == What's New
-- \[July 2023\] I am excited to receive the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship] \n
-#- \[June 2023\] I am excited to be selected as one of the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellows 2023] \n
+- \[July 2023\] I am excited to be selected as one of the 2023 [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellows] \n
+- \[July 2023\] I am excited to receive the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] \n
 - \[July 2023\] Give a talk on the PaGE-Link paper at Amazon Trans.AI Research Talk Series [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
 - \[June 2023\] Our survey paper on GNN acceleration is on arXiv now, which covers algorithms, systems, and customized hardware [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
 - \[April 2023\] One paper on GNN distillation for link prediction is accepted by ICML 2023 [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] \n
@@ -64,8 +64,8 @@ Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [ht
 
 
 == Honors and Awards
-- [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P.Morgan Chase AI PhD Fellowship], 2023
-#- Amazon PhD Fellow, 2023
+- [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellow], 2023
+- [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI PhD Fellowship], 2023
 - [https://research.snap.com/fellowships.html Snap Research Fellowship Honorable Mention], 2022
 - ICML Top Reviewer (Top 10\%), 2022
 - UCLA Graduate Division Fellowship, 2021
