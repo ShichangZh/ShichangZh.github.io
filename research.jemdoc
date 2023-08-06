@@ -1,23 +1,27 @@
 # jemdoc: menu{MENU}{index.html}, nofooter  
 ==Shichang Zhang 
 
-== Publications and Pre-prints
-. A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
-*Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
-. PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
-*Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun. [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]][https://github.com/amazon-science/page-link-path-based-gnn-explanation \[code\]]
+== Publications
 . Linkless Link Prediction via Relational Distillation (*ICML 2023*) \n
 Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]]
+. PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
+*Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun. [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]][https://github.com/amazon-science/page-link-path-based-gnn-explanation \[code\]]
 . GStarX: Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
  *Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun [https://arxiv.org/abs/2201.12380.pdf \[PDF\]] [https://github.com/ShichangZh/GStarX \[code\]]
 . Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation (*ICLR 2022*) \n
  *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[code\]]
 . Graph Condensation for Graph Neural Networks (*ICLR 2022*) \n
 Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [https://arxiv.org/pdf/2110.07580.pdf \[PDF\]] [https://github.com/ChandlerBang/GCond \[code\]]
+
+
+== Workshop Papers and Pre-prints
+. SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (pre-print) \n
+Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, Arjun R Loomba, *Shichang Zhang*, Yizhou Sun, Wei Wang [https://arxiv.org/pdf/2307.10635.pdf \[PDF\]] [https://github.com/mandyyyyii/scibench \[code\]] \n
+. A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
+*Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
 . Motif-driven Contrastive Learning of Graph Representations (SSL@WWW2021) \n
 *Shichang Zhang*, Ziniu Hu, Arjun Subramonian, Yizhou Sun
 [https://arxiv.org/pdf/2012.12533.pdf \[PDF\]]
 . Adaptive Graph Neural Networks via Fisher Regularization-Guided Filter Integration (preprint) \n
 Yewen Wang, *Shichang Zhang*, Ziniu Hu, Yusong Ye, Junghoo Cho, Yizhou Sun
-. Machine Reading Comprehension with Hierarchical Attention and Stochastic Prediction Dropout (preprint) \n
-*Shichang Zhang*, Yancheng Li, Yiyang Li 
+
