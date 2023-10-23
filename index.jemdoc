@@ -4,14 +4,12 @@
 ~~~
 {}{img_left}{img/bio.png}{alt text}{285}{300}{https://shichangzh.github.io/}
 === About Me
-I am currently a fourth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. 
+I am currently a fifth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. 
 
 
+I organize the UCLA Data Mining Reading Group. The reading group operates in three formats, reading cutting-edge AI research papers, studying a comprehensive AI course per quarter, and guest talks. Our AI course for this quarter is Physics-Informed Machine Learning (PIML). In the past, we have covered diffusion models, large language models, differential geometry, probabilistic graphical models, spectral graph theory, and neural radiance fields. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My presentations at the reading group can be found under [talks.html Talks].
 
-# My research is supported by the Amazon Science Fellowship and J.P. Morgan Chase AI PhD Fellowship.
-
-
-I organize the UCLA Data Mining Reading Group. We cover interesting graph machine learning papers every week. Please check the past slides and recordings [https://ucla-dm.github.io/DM_website/reading/paper.html here]. The reading group also digs deep into one cutting-edge AI research topic each quarter. The topic for this quarter is Neural Radiance Fields (NeRF). In the past, we have covered diffusion models, large language models, differential geometry, probabilistic graphical models, and spectral graph theory. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My personal presentations at the reading group can be found under [talks.html Talks].
+If you are interested in becoming a guest speaker, please feel free to email me. We especially welcome senior-year PhDs to practice their job talks and the first authors to present their recent works published in top conferences.
 
 
 === Contact
@@ -20,7 +18,10 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 [https://scholar.google.com/citations?user=TYqG0x4AAAAJ&hl=en&oi=ao \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://twitter.com/ShichangZhang \[Twitter\]] [https://www.linkedin.com/in/shichang-zhang-4430a4106/ \[LinkedIn\]][cv/shichangzhang_cv.pdf \[CV\]]
 ~~~
 
+
 == What's New
+- \[Oct 2023\] Our paper on graph-based XAI for ICU length of stay prediction is accepted by WITS 2023 
+[preprints/LoS_XAI_WITS.pdf \[PDF\]]\n
 - \[Aug 2023\] Certified Excellence in Reviewing for KDD 2023 (30 in 1551) \n
 - \[July 2023\] I am excited to be selected as one of the 2023 [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellows] \n
 - \[July 2023\] I am excited to receive the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] \n
@@ -36,21 +37,23 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 
 == Research Interests
 My research interests include 
-- Graph Neural Network
 - Explainable AI
+- Graph Data Mining
 - Model Efficiency
 - Self-supervised Learning
-- Large Language Model
-- Causality
+- Large Language Models
+# - Causality
 
 
 == Recent Publications and Pre-prints
+. Predicting ICU Length of Stay: A Graph Learning-based Explainable AI Approach (*WITS 2023*)\n
+Tianjian Guo, *Shichang Zhang*, Indranil Bardhan, Ying Ding [preprints/LoS_XAI_WITS.pdf \[PDF\]] \n
 . SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (pre-print) \n
 Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, Arjun R Loomba, *Shichang Zhang*, Yizhou Sun, Wei Wang [https://arxiv.org/pdf/2307.10635.pdf \[PDF\]] [https://github.com/mandyyyyii/scibench \[code\]] \n
 . A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
 *Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
 . Linkless Link Prediction via Relational Distillation (*ICML 2023*) \n
-Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]]
+Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] [https://github.com/snap-research/linkless-link-prediction \[code\]]
 . PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
 *Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun. [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]][https://github.com/amazon-science/page-link-path-based-gnn-explanation \[code\]]
 . GStarX: Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
@@ -59,9 +62,6 @@ Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Sha
  *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[code\]]
 . Graph Condensation for Graph Neural Networks (*ICLR 2022*) \n
 Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [https://arxiv.org/pdf/2110.07580.pdf \[PDF\]] [https://github.com/ChandlerBang/GCond \[code\]]
-. Motif-driven Contrastive Learning of Graph Representations (*SSL@WWW2021*) \n
-*Shichang Zhang*, Ziniu Hu, Arjun Subramonian, Yizhou Sun
-[https://arxiv.org/pdf/2012.12533.pdf \[PDF\]]
 
 [research.html Full list of publications]\n
 

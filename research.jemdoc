@@ -3,7 +3,7 @@
 
 == Publications
 . Linkless Link Prediction via Relational Distillation (*ICML 2023*) \n
-Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]]
+Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]][https://github.com/snap-research/linkless-link-prediction \[code\]]
 . PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
 *Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun. [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]][https://github.com/amazon-science/page-link-path-based-gnn-explanation \[code\]]
 . GStarX: Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
@@ -15,6 +15,8 @@ Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [ht
 
 
 == Workshop Papers and Pre-prints
+. Predicting ICU Length of Stay: A Graph Learning-based Explainable AI Approach (*WITS 2023*)\n
+Tianjian Guo, *Shichang Zhang*, Indranil Bardhan, Ying Ding [preprints/LoS_XAI_WITS.pdf \[PDF\]] \n
 . SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (pre-print) \n
 Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, Arjun R Loomba, *Shichang Zhang*, Yizhou Sun, Wei Wang [https://arxiv.org/pdf/2307.10635.pdf \[PDF\]] [https://github.com/mandyyyyii/scibench \[code\]] \n
 . A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
@@ -24,4 +26,5 @@ Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, A
 [https://arxiv.org/pdf/2012.12533.pdf \[PDF\]]
 . Adaptive Graph Neural Networks via Fisher Regularization-Guided Filter Integration (preprint) \n
 Yewen Wang, *Shichang Zhang*, Ziniu Hu, Yusong Ye, Junghoo Cho, Yizhou Sun
+
 

@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{index.html}, nofooter  
 ==Shichang Zhang 
 
-== Paper Talks
+== Invited Talks of My Research
 - Graph Neural Network Explanation for Heterogeneous Link Prediction \n
 -- \[July 2023\] Amazon Trans.AI Research Talks [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
 -- \[May 2023\] International World Wide Web Conference [slides/2023_05_PaGELink_WWW.pdf \[slides\]] \n
@@ -11,7 +11,7 @@
 - Graph-less Neural Networks \n
 \[May 2022\] NVIDIA GNN Reading Group [slides/2022_05_GLNN_NVIDIA.pdf \[slides\]]
 
-== UCLA Data Mining Reading Group
+== Talks at UCLA Data Mining Reading Group
 
 - \[Nov 2022\] Recent Progress in GNN Explainability [slides/2022_11_GNN_Explainability2.pdf \[slides\]]
 - \[Oct 2022\] Diffusion Models For Text To Image Generation [slides/2022_10_Diffusion_models_for_text_to_image_generation.pdf \[slides\]]
@@ -21,3 +21,7 @@
 - \[Jan 2021\] Analyzing GNNs, A Spectral Perspective [slides/2021_01_Analyzing_GNNs_A_Spectral_Perspective.pdf \[slides\]]
 - \[May 2020\] From Variational Inference to Variational Auto Encoder [slides/2020_05_From_Variational_Inference_to_Variational_Auto_Encoder.pdf \[slides\]]
 - \[Sept 2019\] Probability and Sampling Methods [slides/2019_09_sampling1.pdf \[slides part1\]] [slides/2019_09_sampling2.pdf \[slides part2\]]
+
+== Other Talks
+- \[Oct 2023\] A Watermark for Large Language Models @ UT Austin LLM research seminar [slides/2023_10_LLM_watermarking.pdf \[slides\]] \n
+
