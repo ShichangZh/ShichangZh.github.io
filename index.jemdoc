@@ -4,13 +4,11 @@
 ~~~
 {}{img_left}{img/bio.png}{alt text}{285}{300}{https://shichangzh.github.io/}
 === About Me
-I am currently a fifth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. 
+I am a fifth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. 
 
+I organize the UCLA Data Mining Reading Group. The reading group includes cutting-edge research papers, AI courses, and guest talks. Our AI course for this quarter is Physics-Informed Machine Learning (PIML). In the past, we have covered diffusion models, large language models, differential geometry, probabilistic graphical models, spectral graph theory, and neural radiance fields. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My presentations at the reading group can be found under [talks.html Talks].
 
-I organize the UCLA Data Mining Reading Group. The reading group operates in three formats, reading cutting-edge AI research papers, studying a comprehensive AI course per quarter, and guest talks. Our AI course for this quarter is Physics-Informed Machine Learning (PIML). In the past, we have covered diffusion models, large language models, differential geometry, probabilistic graphical models, spectral graph theory, and neural radiance fields. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My presentations at the reading group can be found under [talks.html Talks].
-
-If you are interested in becoming a guest speaker, please feel free to email me. We especially welcome senior-year PhDs to practice their job talks and the first authors to present their recent works published in top conferences.
-
+Please feel free to email me if you are interested in becoming a guest speaker. We especially welcome senior-year PhDs to practice their job talks and the first authors to present their recent work.
 
 === Contact
 3551 (ScAI Lab), Bolter Hall, UCLA, CA, 90095 \n
@@ -18,8 +16,11 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 [https://scholar.google.com/citations?user=TYqG0x4AAAAJ&hl=en&oi=ao \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://twitter.com/ShichangZhang \[Twitter\]] [https://www.linkedin.com/in/shichang-zhang-4430a4106/ \[LinkedIn\]][cv/shichangzhang_cv.pdf \[CV\]]
 ~~~
 
-
 == What's New
+- \[Dec 2023\] Our paper on LLM-based explainable molecular concept learning is accepted by the XAI4Sci workshop at AAAI 2024 
+# [https://openreview.net/pdf?id=Adylnj8Tgc \[PDF\]]\n
+- \[Dec 2023\] Our paper on GNNs for metallic glasses is accepted by the AI4Mat workshop at NeurIPS 2023
+[https://openreview.net/pdf?id=2PucSD895t \[PDF\]]\n
 - \[Oct 2023\] Our paper on graph-based XAI for ICU length of stay prediction is accepted by WITS 2023 
 [preprints/LoS_XAI_WITS.pdf \[PDF\]]\n
 - \[Aug 2023\] Certified Excellence in Reviewing for KDD 2023 (30 in 1551) \n
@@ -30,22 +31,24 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 - \[April 2023\] One paper on GNN distillation for link prediction is accepted by ICML 2023 [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] \n
 - \[Feb 2023\] Give a talk on the GStarX paper at AI TIME NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]] \n
 - \[Jan 2023\] One paper on GNN explanation for link prediction is accepted by WWW 2023 [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]] \n
-- \[Sept 2022\] One paper on GNN explanation is accepted by NeurIPS 2022 [https://arxiv.org/abs/2201.12380.pdf \[Paper\]]\n
-- \[July 2022\] Selected as the top 10% of reviewers for ICML 2022 \n
-
 [news.html Find out older news]
 
 == Research Interests
 My research interests include 
 - Explainable AI
 - Graph Data Mining
+- Large Language Models
 - Model Efficiency
 - Self-supervised Learning
-- Large Language Models
 # - Causality
 
-
 == Recent Publications and Pre-prints
+. Explainable Molecular Concept Learning with Large Language Models (XAI4Sci@AAAI 2024)\n
+Qianli Wu\*, *Shichang Zhang\**, Botao Xia, Zimin Zhang, Fang Sun, Ziniu Hu, Yizhou Sun (\*equal contribution)
+. Laplacian Score Benefit Adaptive Filter Selection for Graph Neural Networks (*SDM 2024*)\n
+Yewen Wang, *Shichang Zhang*, Junghoo Cho, Yizhou Sun 
+. Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (AI4Mat@NeurIPS 2023)\n
+Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://openreview.net/pdf?id=2PucSD895t \[PDF\]]
 . Predicting ICU Length of Stay: A Graph Learning-based Explainable AI Approach (*WITS 2023*)\n
 Tianjian Guo, *Shichang Zhang*, Indranil Bardhan, Ying Ding [preprints/LoS_XAI_WITS.pdf \[PDF\]] \n
 . SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (MATH-AI@NeurIPS 2023) \n

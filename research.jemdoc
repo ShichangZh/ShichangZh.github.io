@@ -2,6 +2,8 @@
 ==Shichang Zhang 
 
 == Publications
+. Laplacian Score Benefit Adaptive Filter Selection for Graph Neural Networks (*SDM 2024*)\n
+Yewen Wang, *Shichang Zhang*, Junghoo Cho, Yizhou Sun 
 . Linkless Link Prediction via Relational Distillation (*ICML 2023*) \n
 Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]][https://github.com/snap-research/linkless-link-prediction \[code\]]
 . PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
@@ -15,6 +17,10 @@ Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [ht
 
 
 == Workshop Papers and Pre-prints
+. Explainable Molecular Concept Learning with Large Language Models (XAI4Sci@AAAI 2024)\n
+Qianli Wu\*, *Shichang Zhang\**, Botao Xia, Zimin Zhang, Fang Sun, Ziniu Hu, Yizhou Sun (\*equal contribution)
+. Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (AI4Mat@NeurIPS 2023)\n
+Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://openreview.net/pdf?id=2PucSD895t \[PDF\]]
 . Predicting ICU Length of Stay: A Graph Learning-based Explainable AI Approach (*WITS 2023*)\n
 Tianjian Guo, *Shichang Zhang*, Indranil Bardhan, Ying Ding [preprints/LoS_XAI_WITS.pdf \[PDF\]] \n
 . SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (MATH-AI@NeurIPS 2023) \n
@@ -22,9 +28,7 @@ Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, A
 . A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
 *Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
 . Motif-driven Contrastive Learning of Graph Representations (SSL@WWW2021) \n
-*Shichang Zhang*, Ziniu Hu, Arjun Subramonian, Yizhou Sun
+*Shichang Zhang\**, Ziniu Hu\*, Arjun Subramonian, Yizhou Sun (\*equal contribution)
 [https://arxiv.org/pdf/2012.12533.pdf \[PDF\]]
-. Laplacian Score Guided Adaptive Filter Selection for Graph Neural Networks (SoCalDataScience@KDD2023) \n
-Yewen Wang, *Shichang Zhang*, Junghoo Cho, Yizhou Sun
 
 
