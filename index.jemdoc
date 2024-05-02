@@ -17,9 +17,11 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 ~~~
 
 == What's New
+- \[May 2024\] Two papers on GNNs for explainable material science and benchmarking LLMs on scientific problems are accepted by ICML 2024 [https://arxiv.org/pdf/2401.08627 \[Paper1\]] [https://arxiv.org/pdf/2307.10635v2 \[Paper2\]]
+- \[Feb 2024\] Give a talk on Explainable AI for Graph Data and More at the AI4LIFE Group at Harvard.
 - \[Dec 2023\] Our paper on LLM-based explainable molecular concept learning is accepted by the XAI4Sci workshop at AAAI 2024 
 # [https://openreview.net/pdf?id=Adylnj8Tgc \[PDF\]]\n
-- \[Dec 2023\] Our paper on GNNs for metallic glasses is accepted by the AI4Mat workshop at NeurIPS 2023
+- \[Dec 2023\] Our paper on GNNs for explainable material science is accepted by the AI4Mat workshop at NeurIPS 2023
 [https://openreview.net/pdf?id=2PucSD895t \[PDF\]]\n
 # - \[Oct 2023\] Our paper on graph-based XAI for ICU length of stay prediction is accepted by WITS 2023 
 # [preprints/LoS_XAI_WITS.pdf \[PDF\]]\n
@@ -28,31 +30,28 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 - \[July 2023\] I am excited to receive the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] \n
 - \[July 2023\] Give a talk on the PaGE-Link paper at Amazon Trans.AI Research Talk Series [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
 - \[June 2023\] Our survey paper on GNN acceleration is on arXiv now, which covers algorithms, systems, and customized hardware [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
-- \[April 2023\] One paper on GNN distillation for link prediction is accepted by ICML 2023 [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] \n
-- \[Feb 2023\] Give a talk on the GStarX paper at AI TIME NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]] \n
-- \[Jan 2023\] One paper on GNN explanation for link prediction is accepted by WWW 2023 [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]] \n
 [news.html Find out older news]
 
 == Research Interests
 My research interests include 
 - Explainable AI
-- Graph Data Mining
 - Large Language Models
+- Graph Data Mining
 - Model Efficiency
 - Self-supervised Learning
 # - Causality
 
 == Recent Publications and Pre-prints
+. Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (*ICML 2024*)\n
+Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://arxiv.org/pdf/2401.08627 \[PDF\]]
+. SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (*ICML 2024*) \n
+Xiaoxuan Wang\*, Ziniu Hu\*, Pan Lu\*, Yanqiao Zhu\*, Jieyu Zhang, Satyen Subramaniam, Arjun R Loomba, *Shichang Zhang*, Yizhou Sun, Wei Wang (\*equal contribution) [https://arxiv.org/pdf/2307.10635v2.pdf \[PDF\]] [https://github.com/mandyyyyii/scibench \[code\]] \n
 . Explainable Molecular Concept Learning with Large Language Models (XAI4Sci@AAAI 2024)\n
 Qianli Wu\*, *Shichang Zhang\**, Botao Xia, Zimin Zhang, Fang Sun, Ziniu Hu, Yizhou Sun (\*equal contribution)
 . Laplacian Score Benefit Adaptive Filter Selection for Graph Neural Networks (*SDM 2024*)\n
-Yewen Wang, *Shichang Zhang*, Junghoo Cho, Yizhou Sun 
-. Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (AI4Mat@NeurIPS 2023)\n
-Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://openreview.net/pdf?id=2PucSD895t \[PDF\]]
+Yewen Wang, *Shichang Zhang*, Junghoo Cho, Yizhou Sun [https://epubs.siam.org/doi/epdf/10.1137/1.9781611978032.3 \[PDF\]]
 # . Predicting ICU Length of Stay: A Graph Learning-based Explainable AI Approach (*WITS 2023*)\n
 # Tianjian Guo, *Shichang Zhang*, Indranil Bardhan, Ying Ding [preprints/LoS_XAI_WITS.pdf \[PDF\]] \n
-. SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (MATH-AI@NeurIPS 2023) \n
-Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam, Arjun R Loomba, *Shichang Zhang*, Yizhou Sun, Wei Wang [https://arxiv.org/pdf/2307.10635.pdf \[PDF\]] [https://github.com/mandyyyyii/scibench \[code\]] \n
 . A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
 *Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
 . Linkless Link Prediction via Relational Distillation (*ICML 2023*) \n
