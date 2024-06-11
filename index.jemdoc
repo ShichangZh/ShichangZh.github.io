@@ -17,6 +17,8 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 ~~~
 
 == What's New
+- \[June 2024\] Our paper on controlling LLM behaviors with LLM itself as a judge is on arXiv now [https://arxiv.org/pdf/2406.02721 \[Paper\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n
+- \[May 2024\] Our paper on efficient ensembling for training data attribution is on arXiv now [https://arxiv.org/pdf/2405.17293 \[Paper\]]
 - \[May 2024\] Two papers on GNNs for explainable material science and benchmarking LLMs on scientific problems are accepted by ICML 2024 [https://arxiv.org/pdf/2401.08627 \[Paper1\]] [https://arxiv.org/pdf/2307.10635v2 \[Paper2\]]
 - \[Feb 2024\] Give a talk on Explainable AI for Graph Data and More at the AI4LIFE Group at Harvard.
 - \[Dec 2023\] Our paper on LLM-based explainable molecular concept learning is accepted by the XAI4Sci workshop at AAAI 2024 
@@ -38,10 +40,12 @@ My research interests include
 - Large Language Models
 - Graph Data Mining
 - Model Efficiency
-- Self-supervised Learning
-# - Causality
 
 == Recent Publications and Pre-prints
+. Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller (pre-print)\n
+Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu [https://arxiv.org/pdf/2406.02721 \[Paper\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]
+. Efficient Ensembles Improve Training Data Attribution (pre-print)\n
+Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma [https://arxiv.org/pdf/2405.17293 \[Paper\]]
 . Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (*ICML 2024*)\n
 Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://arxiv.org/pdf/2401.08627 \[PDF\]]
 . SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (*ICML 2024*) \n
@@ -62,8 +66,7 @@ Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Sha
  *Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun [https://arxiv.org/abs/2201.12380.pdf \[PDF\]] [https://github.com/ShichangZh/GStarX \[code\]]
 . Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation (*ICLR 2022*) \n
  *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[code\]]
-. Graph Condensation for Graph Neural Networks (*ICLR 2022*) \n
-Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [https://arxiv.org/pdf/2110.07580.pdf \[PDF\]] [https://github.com/ChandlerBang/GCond \[code\]]
+
 
 [research.html Full list of publications]\n
 
