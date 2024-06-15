@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, nofooter  
+# jemdoc: menu{MENU}{research.html}, nofooter  
 ==Shichang Zhang 
 
 == Conference Publications
@@ -29,8 +29,8 @@ Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [ht
 Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu [https://arxiv.org/pdf/2406.02721 \[Paper\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]
 . Efficient Ensembles Improve Training Data Attribution (pre-print)\n
 Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma [https://arxiv.org/pdf/2405.17293 \[Paper\]]
-. Explainable Molecular Concept Learning with Large Language Models (XAI4Sci@AAAI 2024)\n
-Qianli Wu\*, *Shichang Zhang\**, Botao Xia, Zimin Zhang, Fang Sun, Ziniu Hu, Yizhou Sun (\*equal contribution)
+. Automated Molecular Concept Generation and Labeling with Large Language Models (XAI4Sci@AAAI 2024)\n
+*Shichang Zhang\**, Botao Xia\*, Zimin Zhang\*, Qianli Wu\*, Fang Sun, Ziniu Hu, Yizhou Sun (\*equal contribution)
 # . Predicting ICU Length of Stay: A Graph Learning-based Explainable AI Approach (*WITS 2023*)\n
 # Tianjian Guo, *Shichang Zhang*, Indranil Bardhan, Ying Ding [preprints/LoS_XAI_WITS.pdf \[PDF\]] \n
 . A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n

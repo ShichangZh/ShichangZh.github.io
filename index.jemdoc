@@ -1,14 +1,17 @@
-# jemdoc: menu{MENU}{index.html}, nofooter  
+# jemdoc: menu{MENU}{index.html}, nofooter 
+
 == Shichang Zhang 
 
 ~~~
 {}{img_left}{img/bio.png}{alt text}{285}{300}{https://shichangzh.github.io/}
 === About Me
-I am a fifth-year Ph.D. student in [https://www.cs.ucla.edu/ Computer Science] at [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] [https://ucla-dm.github.io/DM_website/ Data Mining Lab] working with Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My research is generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before joining UCLA, I received my B.A. and M.S. both in Statistics from [https://statistics.berkeley.edu/ Berkeley] and [https://statistics.stanford.edu/ Stanford] respectively. 
+I recently graduated with my Ph.D. in Computer Science from [http://www.ucla.edu/ University of California, Los Angeles (UCLA)]. I will join the [https://d3.harvard.edu/ D^3 Institue at Harvard University] as a postdoctoral fellow in August 2024. 
 
-I organize the UCLA Data Mining Reading Group. The reading group includes cutting-edge research papers, AI courses, and guest talks. Our AI course for this quarter is Neurosymbolic methods. In the past, we have covered physics-informed machine learning, diffusion models, large language models, differential geometry, probabilistic graphical models, spectral graph theory, and neural radiance fields. Please find past slides and recordings [https://ucla-dm.github.io/DM_website/reading/course.html here]. My presentations at the reading group can be found under [talks.html Talks].
+I was very fortunate to have Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun] as my Ph.D. advisor. My Ph.D. research was generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before joining UCLA, I received my M.S. and B.A., both in Statistics, from [https://statistics.stanford.edu/ Stanford] and [https://statistics.berkeley.edu/ Berkeley] respectively. 
 
-Please feel free to email me if you are interested in becoming a guest speaker. We especially welcome senior-year PhDs to practice their job talks and the first authors to present their recent work published in top conferences.
+At UCLA, I organized the Data Mining Reading Group for two years, where I held cutting-edge research papers readings, AI courses studies, and hosted 13 guest speakers from both academia and industry. The AI courses we covered included neurosymbolic methods, diffusion models, large language models, differential geometry, spectral graph theory, neural radiance fields, and many more. Slides and recordings of the reading groups can be found [https://ucla-dm.github.io/DM_website/reading/course.html here]. My presentations at the reading group can be found under [talks.html Talks].
+
+# Please feel free to email me if you are interested in becoming a guest speaker. We especially welcome senior-year PhDs to practice their job talks and the first authors to present their recent work published in top conferences.
 
 === Contact
 3551 (ScAI Lab), Bolter Hall, UCLA, CA, 90095 \n
@@ -18,6 +21,7 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 
 == What's New
 - \[June 2024\] Our paper on controlling LLM behaviors with LLM itself as a judge is on arXiv now [https://arxiv.org/pdf/2406.02721 \[Paper\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n
+- \[May 2024\] Defended my Ph.D. thesis "Explainable AI for Graph Data"
 - \[May 2024\] Our paper on efficient ensembling for training data attribution is on arXiv now [https://arxiv.org/pdf/2405.17293 \[Paper\]]
 - \[May 2024\] Two papers on GNNs for explainable material science and benchmarking LLMs on scientific problems are accepted by ICML 2024 [https://arxiv.org/pdf/2401.08627 \[Paper1\]] [https://arxiv.org/pdf/2307.10635v2 \[Paper2\]]
 - \[Feb 2024\] Give a talk on Explainable AI for Graph Data and More at the AI4LIFE Group at Harvard.
@@ -48,18 +52,14 @@ Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu H
 Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma [https://arxiv.org/pdf/2405.17293 \[Paper\]]
 . Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (*ICML 2024*)\n
 Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://arxiv.org/pdf/2401.08627 \[PDF\]]
-. SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (*ICML 2024*) \n
-Xiaoxuan Wang\*, Ziniu Hu\*, Pan Lu\*, Yanqiao Zhu\*, Jieyu Zhang, Satyen Subramaniam, Arjun R Loomba, *Shichang Zhang*, Yizhou Sun, Wei Wang (\*equal contribution) [https://arxiv.org/pdf/2307.10635v2.pdf \[PDF\]] [https://github.com/mandyyyyii/scibench \[code\]] \n
-. Explainable Molecular Concept Learning with Large Language Models (XAI4Sci@AAAI 2024)\n
-Qianli Wu\*, *Shichang Zhang\**, Botao Xia, Zimin Zhang, Fang Sun, Ziniu Hu, Yizhou Sun (\*equal contribution)
+. Automated Molecular Concept Generation and Labeling with Large Language Models (XAI4Sci@AAAI 2024)\n
+*Shichang Zhang\**, Botao Xia\*, Zimin Zhang\*, Qianli Wu\*, Fang Sun, Ziniu Hu, Yizhou Sun (\*equal contribution)
 . Laplacian Score Benefit Adaptive Filter Selection for Graph Neural Networks (*SDM 2024*)\n
 Yewen Wang, *Shichang Zhang*, Junghoo Cho, Yizhou Sun [https://epubs.siam.org/doi/epdf/10.1137/1.9781611978032.3 \[PDF\]]
 # . Predicting ICU Length of Stay: A Graph Learning-based Explainable AI Approach (*WITS 2023*)\n
 # Tianjian Guo, *Shichang Zhang*, Indranil Bardhan, Ying Ding [preprints/LoS_XAI_WITS.pdf \[PDF\]] \n
 . A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
 *Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
-. Linkless Link Prediction via Relational Distillation (*ICML 2023*) \n
-Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] [https://github.com/snap-research/linkless-link-prediction \[code\]]
 . PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
 *Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun. [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]][https://github.com/amazon-science/page-link-path-based-gnn-explanation \[code\]]
 . GStarX: Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n

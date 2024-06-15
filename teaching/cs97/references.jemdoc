@@ -1,0 +1,12 @@
+# jemdoc: menu{teaching/cs97/CS97_MENU}{references.html}, nofooter  
+== CS97 Introduction to Data Science
+	- Shichang Zhang, UCLA, Summer 2024
+
+- *Textbooks (Optional)*:
+-- Fundamentals of Machine Learning for Predictive Data Analytics Algorithms, Worked Examples, and Case Studies. — by John D. Kelleher, Brian Mac Namee, Aoife D’Arcy
+-- Machine Learning: An Algorithmic Perspective, Second Edition Part of: Chapman & Hall /
+CRC Machine Learning & Pattern Recognition (21 Books) — by Stephen Marshland.
+-- Python for data analysis: Data wrangling with Pandas, NumPy, and IPython. O’Reilly
+Media, Inc., 2012 — by McKinney, Wes.
+-- Probabilistic programming and Bayesian methods for hackers., 2015 — by Pilon, Cameron
+Davidson.

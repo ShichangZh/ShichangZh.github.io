@@ -1,5 +1,8 @@
-# jemdoc: menu{MENU}{index.html}, nofooter  
+# jemdoc: menu{MENU}{teaching.html}, nofooter  
 ==Shichang Zhang 
+
+== Instructor at UCLA
+- \[Summer 2024\] CS97 Introduction to Data Science [teaching/cs97/cs97.html \[Homepage\]]
 
 == Teaching Assistant at UCLA
 - \[Fall 2021\] CS145 Introduction to Data Mining [https://github.com/yichousun/Fall2021_CS145_IntroDM \[Homepage\]]

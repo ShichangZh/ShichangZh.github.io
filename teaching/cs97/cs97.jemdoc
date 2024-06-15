@@ -1,0 +1,25 @@
+# jemdoc: menu{teaching/cs97/CS97_MENU}{cs97.html}, nofooter  
+== CS97 Introduction to Data Science
+	Shichang Zhang, UCLA, Summer 2024
+
+- *Course Description:* 
+The fundamental question this course aims to address is: given data arising in real-world, how does one analyze that data so as to understand the corresponding phenomenon. This course will cover topics in machine learning, data analytics, and statistical modeling classically employed for prediction. The course will be a blend of theoretical and practical instruction, providing a comprehensive, hands-on overview of the Data Science domain. The course will seek to teach students the data science lifecycle: data selection and cleaning, feature engineering, model selection, and prediction methodologies.
+
+- *Instructor:* Shichang Zhang (shichang AT ucla DOT edu)
+
+- *Time:* M-F 9:00 am - 11:50 am (lecture) & 1:00 pm - 4:00 pm (discussion + lab)
+
+- *Location:* TBD
+
+- *TAs (emails):*
+-- Amin Doosti	(doostiamin AT ucla DOT edu)
+-- Howard Zhu	(howardzhu8 AT gmail DOT com)
+-- Weikai Li (weikaili AT cs.ucla DOT edu)
+-- Zongyue Qin (qinzongyue AT cs.ucla DOT edu)
+
+- *Grading*
+-- Homework 40\% (Homework 1 to 4, 10% each)
+-- Midterm Exam 25%
+-- Final Course Project 30%
+-- Participation 5%
+
