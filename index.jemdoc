@@ -22,10 +22,11 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 ~~~
 
 == What's New
-- \[June 2024\] Our paper on controlling LLM behaviors with LLM itself as a judge is on arXiv now [https://arxiv.org/pdf/2406.02721 \[Paper\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n
+- \[June 2024\] Our paper on controlling LLM behaviors with LLM itself as a judge is on arXiv now [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n
 - \[May 2024\] Defended my Ph.D. thesis "Explainable AI for Graph Data"
-- \[May 2024\] Our paper on efficient ensembling for training data attribution is on arXiv now [https://arxiv.org/pdf/2405.17293 \[Paper\]]
-- \[May 2024\] Two papers on GNNs for explainable material science and benchmarking LLMs on scientific problems are accepted by ICML 2024 [https://arxiv.org/pdf/2401.08627 \[Paper1\]] [https://arxiv.org/pdf/2307.10635v2 \[Paper2\]]
+- \[May 2024\] Our paper on efficient ensembling for training data attribution is on arXiv now [https://arxiv.org/pdf/2405.17293 \[PDF\]]
+- \[May 2024\] Our paper on measure-theoretic compact fuzzy set representation for taxonomy expansion is accepted by ACL 2024 as Findings [https://openreview.net/pdf?id=ZhhOH9zFhC \[PDF\]]
+- \[May 2024\] Two papers on GNNs for explainable material science and benchmarking LLMs on scientific problems are accepted by ICML 2024 [https://arxiv.org/pdf/2401.08627 \[PDF1\]] [https://arxiv.org/pdf/2307.10635v2 \[PDF2\]]
 - \[Feb 2024\] Give a talk on Explainable AI for Graph Data and More at the AI4LIFE Group at Harvard.
 - \[Dec 2023\] Our paper on LLM-based explainable molecular concept learning is accepted by the XAI4Sci workshop at AAAI 2024 
 # [https://openreview.net/pdf?id=Adylnj8Tgc \[PDF\]]\n
@@ -48,10 +49,14 @@ My research interests include
 - Model Efficiency
 
 == Recent Publications and Pre-prints
+. Hierarchical Compression of Text-Rich Graphs via Large Language Models (pre-print) \n
+*Shichang Zhang*, Da Zheng, Jiani Zhang, Qi Zhu, Xiang Song, Soji Adeshina, Christos Faloutsos, George Karypis, Yizhou Sun. [https://arxiv.org/pdf/2406.11884.pdf \[PDF\]]
 . Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller (pre-print)\n
-Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu [https://arxiv.org/pdf/2406.02721 \[Paper\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]
+Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]
 . Efficient Ensembles Improve Training Data Attribution (pre-print)\n
-Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma [https://arxiv.org/pdf/2405.17293 \[Paper\]]
+Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma [https://arxiv.org/pdf/2405.17293 \[PDF\]]
+. FUSE: Measure-Theoretic Compact Fuzzy Set Representation for Taxonomy Expansion (*ACL 2024 Findings*)\n
+Fred Xu, Song Jiang, Zijie Huang, Xiao Luo, *Shichang Zhang*, Yuanzhou Chen, and Yizhou Sun [https://openreview.net/pdf?id=ZhhOH9zFhC \[PDF\]][https://github.com/heraclixus/FUSE \[Code\]]
 . Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (*ICML 2024*)\n
 Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://arxiv.org/pdf/2401.08627 \[PDF\]]
 . Automated Molecular Concept Generation and Labeling with Large Language Models (XAI4Sci@AAAI 2024)\n

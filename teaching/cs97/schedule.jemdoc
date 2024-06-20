@@ -6,15 +6,15 @@
  *Week* | *Date* | *Lecture (9:00 am -- 11:50 am)*    | *1:00 pm -- 4:00 pm*          | *Deadlines*                    ||
  Week 1 | 6\/24  | Introduction. Know Your Data       | Discussion and Lab            | Homework 0 out                 ||
         | 6\/25  | Linear Regression                  | Discussion and Lab            |                                ||
-        | 6\/26  | Regularization. Model Selection    | %Seminar%, Discussion and Lab   | Homework 1 out                 ||
+        | 6\/26  | Regularization. Model Selection    | Discussion and Lab            | Homework 1 out                 ||
         | 6\/27  | Logistic Regression                | Discussion and Lab            |                                ||
-        | 6\/28  | Classification Evaluation. KNN     | Discussion and Lab            | Homework 1 due, Homework 2 out, %Project: topic decided% ||
+        | 6\/28  | Classification Evaluation. KNN     | %Seminar%, Discussion and Lab | Homework 1 due, Homework 2 out, %Project: topic decided% ||
  Week 2 | 7\/1   | SVM and Decision Tree              | Discussion and Lab            | Homework 2 due, Homework 3 out ||
-        | 7\/2   | Perceptron and NN                  | Discussion and Lab            | Homework 3 due, Homework 4 out ||
-        | 7\/3   | NN: Design/Training/Regularization | %Seminar%, Discussion and Lab   |                                ||
+        | 7\/2   | Perceptron and NN                  | Discussion and Lab            |                                ||
+        | 7\/3   | NN: Design/Training/Regularization | Discussion and Lab            | Homework 3 due, Homework 4 out ||
         | 7\/4   | No class                           | No class                      |                                ||
-        | 7\/5   | Clustering and K-Means             | Discussion and Lab            | Homework 4 due, %Project: first idea implemented% ||
- Week 3 | 7\/8   | Application: Health                | %Exam (90 minutes)%, Q & A      |                                ||
+        | 7\/5   | Clustering and K-Means             | %Seminar%, Discussion and Lab | Homework 4 due, %Project: first idea implemented% ||
+ Week 3 | 7\/8   | Application: Health                | %Exam (90 minutes)%, Special Activity |                       ||
         | 7\/9   | Application: Text                  | Discussion and Lab            |                                ||
         | 7\/10  | Application: Image                 | Discussion and Lab            |                                ||
         | 7\/11  | Application: Recommender Systems   | Discussion and Lab            | %Project: completed & slides prepared% ||

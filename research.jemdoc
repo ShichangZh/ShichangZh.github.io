@@ -2,6 +2,8 @@
 ==Shichang Zhang 
 
 == Conference Publications
+. FUSE: Measure-Theoretic Compact Fuzzy Set Representation for Taxonomy Expansion (*ACL 2024 Findings*)\n
+Fred Xu, Song Jiang, Zijie Huang, Xiao Luo, *Shichang Zhang*, Yuanzhou Chen, and Yizhou Sun [https://openreview.net/pdf?id=ZhhOH9zFhC \[PDF\]][https://github.com/heraclixus/FUSE \[Code\]]
 . Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (*ICML 2024*)\n
 Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://openreview.net/pdf?id=2PucSD895t \[PDF\]]
 . SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (*ICML 2024*) \n
@@ -25,10 +27,12 @@ Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [ht
 [https://arxiv.org/pdf/2012.12533.pdf \[PDF\]]
 
 == Workshop Papers and Pre-prints
+. Hierarchical Compression of Text-Rich Graphs via Large Language Models (pre-print) \n
+*Shichang Zhang*, Da Zheng, Jiani Zhang, Qi Zhu, Xiang Song, Soji Adeshina, Christos Faloutsos, George Karypis, Yizhou Sun. [https://arxiv.org/pdf/2406.11884.pdf \[PDF\]]
 . Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller (pre-print)\n
-Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu [https://arxiv.org/pdf/2406.02721 \[Paper\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]
+Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]
 . Efficient Ensembles Improve Training Data Attribution (pre-print)\n
-Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma [https://arxiv.org/pdf/2405.17293 \[Paper\]]
+Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma [https://arxiv.org/pdf/2405.17293 \[PDF\]]
 . Automated Molecular Concept Generation and Labeling with Large Language Models (XAI4Sci@AAAI 2024)\n
 *Shichang Zhang\**, Botao Xia\*, Zimin Zhang\*, Qianli Wu\*, Fang Sun, Ziniu Hu, Yizhou Sun (\*equal contribution) [https://arxiv.org/abs/2406.09612 \[PDF\]]
 # . Predicting ICU Length of Stay: A Graph Learning-based Explainable AI Approach (*WITS 2023*)\n
