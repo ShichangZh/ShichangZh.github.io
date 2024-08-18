@@ -16,7 +16,7 @@ During my Ph.D. at UCLA, I organized the Data Mining Reading Group for two years
 === Contact
 3551 (ScAI Lab), Bolter Hall, UCLA, CA, 90095 \n
 E-mail: /shichang/ AT cs DOT ucla DOT edu \n
-[https://scholar.google.com/citations?user=TYqG0x4AAAAJ&hl=en&oi=ao \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://twitter.com/ShichangZhang \[Twitter\]] [https://www.linkedin.com/in/shichang-zhang-4430a4106/ \[LinkedIn\]] [cv/shichang_zhang_cv.pdf \[CV\]]
+[https://scholar.google.com/citations?user=TYqG0x4AAAAJ&hl=en&oi=ao \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://www.linkedin.com/in/shichang-zhang-4430a4106/ \[LinkedIn\]] [https://x.com/shichangzhang \[X\]] [cv/shichang_zhang_cv.pdf \[CV\]]
 ~~~
 
 == What's New
@@ -39,9 +39,10 @@ E-mail: /shichang/ AT cs DOT ucla DOT edu \n
 == Research Interests
 My research interests include 
 - Explainable AI
+- Mechanistic Interpretability
+- Data Attribution
 - Large Language Models
 - Graph Data Mining
-- Data Valuation
 - Model Efficiency
 
 == Recent Publications and Pre-prints
