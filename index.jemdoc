@@ -21,7 +21,8 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 ~~~
 
 == What's New
-- \[Oct 2024\] Our paper on explainable graph learning for predicting ICU length of stay is accepted by ISR [preprints/LoS_XAI_ISR.pdf \[PDF\]] \n
+- \[Nov 2024\] Our paper on LLM-based explainable molecular concept learning is accepted by COLING 2025 [https://arxiv.org/pdf/2406.09612 \[PDF\]]\n
+- \[Oct 2024\] Our paper on explainable graph learning for predicting ICU length of stay is accepted by ISR [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF\]] \n
 - \[Oct 2024\] Our paper on generalized group data attribution is on arXiv now [https://arxiv.org/pdf/2410.09940 \[PDF\]]
 - \[July 2024\] A [miscellaneous/Knowledge_in_LLMs.pdf Mind Map of Knowledge in LLMs] \n
 - \[June 2024\] Our paper on controlling LLM behaviors with LLM itself as a judge is on arXiv now [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n
@@ -30,9 +31,6 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 - \[May 2024\] Our paper on measure-theoretic compact fuzzy set representation for taxonomy expansion is accepted by ACL 2024 as Findings [https://openreview.net/pdf?id=ZhhOH9zFhC \[PDF\]]
 - \[May 2024\] Two papers on GNNs for explainable material science and benchmarking LLMs on scientific problems are accepted by ICML 2024 [https://arxiv.org/pdf/2401.08627 \[PDF1\]] [https://arxiv.org/pdf/2307.10635v2 \[PDF2\]]
 - \[Feb 2024\] Give a talk on Explainable AI for Graph Data and More at the AI4LIFE Group at Harvard.
-- \[Dec 2023\] Our paper on LLM-based explainable molecular concept learning is accepted by the XAI4Sci workshop at AAAI 2024 [https://xai4sci.github.io/papers/2024/09_explainable_molecular_concept_learning_with_large_language_models.pdf \[PDF\]]\n
-- \[Dec 2023\] Our paper on GNNs for explainable material science is accepted by the AI4Mat workshop at NeurIPS 2023
-[https://openreview.net/pdf?id=2PucSD895t \[PDF\]]\n
 [news.html Find out older news]
 
 == Research Interests
@@ -45,6 +43,8 @@ My research interests include
 - Model Efficiency
 
 == Selected Publications and Pre-prints
+. Automated Molecular Concept Generation and Labeling with Large Language Models (*COLING 2025*)\n
+Zimin Zhang\*, Qianli Wu\*, Botao Xia\*, Fang Sun, Ziniu Hu, Yizhou Sun, *Shichang Zhang* (\*equal contribution) [https://arxiv.org/abs/2406.09612 \[PDF\]]
 . An Explainable AI Approach using Graph Learning to Predict ICU Length of Stay (*ISR Oct. 2024*)\n
 Tianjian Guo, Indranil Bardhan, Ying Ding, *Shichang Zhang* [preprints/LoS_XAI_ISR.pdf \[PDF\]] \n
 . Generalized Group Data Attribution (ATTRIB@NeurIPS 2024) \n
