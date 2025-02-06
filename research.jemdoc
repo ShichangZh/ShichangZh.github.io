@@ -1,48 +1,53 @@
 # jemdoc: menu{MENU}{research.html}, nofooter  
 == Shichang (Ray) Zhang 
 
-== Conference Publications
-. Automated Molecular Concept Generation and Labeling with Large Language Models (*COLING 2025*)\n
-Zimin Zhang\*, Qianli Wu\*, Botao Xia\*, Fang Sun, Ziniu Hu, Yizhou Sun, *Shichang Zhang* (\*equal contribution) [https://arxiv.org/abs/2406.09612 \[PDF\]]
-. FUSE: Measure-Theoretic Compact Fuzzy Set Representation for Taxonomy Expansion (*ACL 2024 Findings*)\n
-Fred Xu, Song Jiang, Zijie Huang, Xiao Luo, *Shichang Zhang*, Yuanzhou Chen, Yizhou Sun [https://openreview.net/pdf?id=ZhhOH9zFhC \[PDF\]][https://github.com/heraclixus/FUSE \[Code\]]
-. Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (*ICML 2024*)\n
-Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) [https://openreview.net/pdf?id=2PucSD895t \[PDF\]]
-. SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (*ICML 2024*) \n
-Xiaoxuan Wang\*, Ziniu Hu\*, Pan Lu\*, Yanqiao Zhu\*, Jieyu Zhang, Satyen Subramaniam, Arjun R Loomba, *Shichang Zhang*, Yizhou Sun, Wei Wang (\*equal contribution) [https://arxiv.org/pdf/2307.10635v2.pdf \[PDF\]] [https://github.com/mandyyyyii/scibench \[code\]] \n
-. Laplacian Score Benefit Adaptive Filter Selection for Graph Neural Networks (*SDM 2024*)\n
-Yewen Wang, *Shichang Zhang*, Junghoo Cho, Yizhou Sun [https://epubs.siam.org/doi/epdf/10.1137/1.9781611978032.3 \[PDF\]]
-. Linkless Link Prediction via Relational Distillation (*ICML 2023*) \n
-Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao [https://arxiv.org/abs/2210.05801.pdf \[PDF\]][https://github.com/snap-research/linkless-link-prediction \[code\]]
-. PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) \n
-*Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun. [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]][https://github.com/amazon-science/page-link-path-based-gnn-explanation \[code\]]
-. GStarX: Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) \n
- *Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun [https://arxiv.org/abs/2201.12380.pdf \[PDF\]] [https://github.com/ShichangZh/GStarX \[code\]]
-. Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation (*ICLR 2022*) \n
- *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[code\]]
-. Graph Condensation for Graph Neural Networks (*ICLR 2022*) \n
-Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah [https://arxiv.org/pdf/2110.07580.pdf \[PDF\]] [https://github.com/ChandlerBang/GCond \[code\]]
+== Conference Publications  
 
-== Journal Publications
-. An Explainable AI Approach using Graph Learning to Predict ICU Length of Stay (*ISR Oct. 2024*)\n
-Tianjian Guo, Indranil Bardhan, Ying Ding, *Shichang Zhang* [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF\]] \n
-. Motif-driven Contrastive Learning of Graph Representations (*TKDE Feb. 2024*) \n
-*Shichang Zhang\**, Ziniu Hu\*, Arjun Subramonian, Yizhou Sun (\*equal contribution)
-[https://arxiv.org/pdf/2012.12533.pdf \[PDF\]]
+. Automated Molecular Concept Generation and Labeling with Large Language Models (*COLING 2025*) [https://arxiv.org/abs/2406.09612 \[PDF\]] [https://github.com/ziminz19/AutoMolCo \[Code\]] \n 
+Zimin Zhang\*, Qianli Wu\*, Botao Xia\*, Fang Sun, Ziniu Hu, Yizhou Sun, *Shichang Zhang* (\*equal contribution)  
+. FUSE: Measure-Theoretic Compact Fuzzy Set Representation for Taxonomy Expansion (*ACL 2024 Findings*) [https://aclanthology.org/2024.findings-acl.158.pdf \[PDF\]] [https://github.com/heraclixus/FUSE \[Code\]] \n  
+Fred Xu, Song Jiang, Zijie Huang, Xiao Luo, *Shichang Zhang*, Yuanzhou Chen, Yizhou Sun  
+. Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (*ICML 2024*) [https://arxiv.org/pdf/2401.08627 
+\[PDF\]] [https://github.com/haoyuli02/SymGNN \[Code\]]\n 
+Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution)  
+. SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models (*ICML 2024*) [https://arxiv.org/pdf/2307.10635v2.pdf 
+\[PDF\]] [https://github.com/mandyyyyii/scibench \[Code\]] \n  
+Xiaoxuan Wang\*, Ziniu Hu\*, Pan Lu\*, Yanqiao Zhu\*, Jieyu Zhang, Satyen Subramaniam, Arjun R Loomba, *Shichang Zhang*, Yizhou Sun, Wei Wang (\*equal contribution)  
+. Laplacian Score Benefit Adaptive Filter Selection for Graph Neural Networks (*SDM 2024*) [https://epubs.siam.org/doi/epdf/10.1137/1.9781611978032.3 
+\[PDF\]] \n 
+Yewen Wang, *Shichang Zhang*, Junghoo Cho, Yizhou Sun  
+. Linkless Link Prediction via Relational Distillation (*ICML 2023*) [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] [https://github.com/snap-research/linkless-link-prediction \[Code\]] \n  
+Zhichun Guo, William Shiao, *Shichang Zhang*, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao  
+. PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction (*WWW 2023*) [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]] [https://github.com/amazon-science/page-link-path-based-gnn-explanation \[Code\]] \n  
+*Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun  
+. GStarX: Explaining Graph Neural Networks with Structure-Aware Cooperative Games (*NeurIPS 2022*) [https://arxiv.org/abs/2201.12380.pdf \[PDF\]] [https://github.com/ShichangZh/GStarX \[Code\]] \n  
+*Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun  
+. Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation (*ICLR 2022*) [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[Code\]] \n  
+*Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah  
+. Graph Condensation for Graph Neural Networks (*ICLR 2022*) [https://arxiv.org/pdf/2110.07580.pdf \[PDF\]] [https://github.com/ChandlerBang/GCond \[Code\]] \n  
+Wei Jin, Lingxiao Zhao, *Shichang Zhang*, Yozen Liu, Jiliang Tang, Neil Shah  
 
-== Workshop Papers and Pre-prints
-. Generalized Group Data Attribution (ATTRIB@NeurIPS 2024) \n
-Dan Ley, Suraj Srinivas, *Shichang Zhang*, Gili Rusak, Himabindu Lakkaraju [https://arxiv.org/pdf/2410.09940 \[PDF\]]
-. Hierarchical Compression of Text-Rich Graphs via Large Language Models (pre-print) \n
-*Shichang Zhang*, Da Zheng, Jiani Zhang, Qi Zhu, Xiang Song, Soji Adeshina, Christos Faloutsos, George Karypis, Yizhou Sun. [https://arxiv.org/pdf/2406.11884.pdf \[PDF\]]
-. Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller (MI@ICML 2024)\n
-Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]
-. Efficient Ensembles Improve Training Data Attribution (DMLR@ICML 2024)\n
-Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma [https://arxiv.org/pdf/2405.17293 \[PDF\]]
-. Parameter-Efficient Tuning Large Language Models for Graph Representation Learning (pre-print) \n
-Qi Zhu, Da Zheng, Xiang Song, *Shichang Zhang*, Bowen Jin, Yizhou Sun, George Karypis [https://arxiv.org/pdf/2404.18271 \[PDF\]]
-. A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (pre-print) \n
-*Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
+== Journal Publications  
+. An Explainable AI Approach using Graph Learning to Predict ICU Length of Stay (*ISR Oct. 2024*) [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF\]] \n 
+Tianjian Guo, Indranil Bardhan, Ying Ding, *Shichang Zhang*  
+. Motif-driven Contrastive Learning of Graph Representations (*TKDE Feb. 2024*) [https://arxiv.org/pdf/2012.12533.pdf \[PDF\]] \n 
+*Shichang Zhang\**, Ziniu Hu\*, Arjun Subramonian, Yizhou Sun (\*equal contribution)  
 
+== Workshop Papers and Pre-prints  
+. Building Bridges, Not Walls - Advancing Interpretability by Unifying Feature, Data and Model Component Attribution (Pre-print) [https://arxiv.org/pdf/2501.18887 \[PDF\]] \n 
+*Shichang Zhang*, Tessa Han, Usha Bhalla, Himabindu Lakkaraju  
+. Generalized Group Data Attribution (ATTRIB@NeurIPS 2024) [https://arxiv.org/pdf/2410.09940 \[PDF\]] \n 
+Dan Ley, Suraj Srinivas, *Shichang Zhang*, Gili Rusak, Himabindu Lakkaraju  
+. Hierarchical Compression of Text-Rich Graphs via Large Language Models (Pre-print) [https://arxiv.org/pdf/2406.11884.pdf \[PDF\]] \n 
+*Shichang Zhang*, Da Zheng, Jiani Zhang, Qi Zhu, Xiang Song, Soji Adeshina, Christos Faloutsos, George Karypis, Yizhou Sun  
+. Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller (MI@ICML 2024) [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n  
+Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu  
+. Efficient Ensembles Improve Training Data Attribution (DMLR@ICML 2024) [https://arxiv.org/pdf/2405.17293 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n 
+Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma  
+. Parameter-Efficient Tuning Large Language Models for Graph Representation Learning (Pre-print) [https://arxiv.org/pdf/2404.18271 \[PDF\]] \n 
+Qi Zhu, Da Zheng, Xiang Song, *Shichang Zhang*, Bowen Jin, Yizhou Sun, George Karypis  
+. A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (Pre-print) [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] 
+\n 
+*Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun  
 
 
