@@ -21,7 +21,7 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 ~~~
 
 == What's New
-- \[Feb 2024\] Our paper on Advancing Interpretability by Unifying Feature, Data and Model Component Attribution is on arXiv now [https://arxiv.org/pdf/2501.18887 \[PDF\]]
+- \[Feb 2025\] Our paper on Advancing Interpretability by Unifying Feature, Data and Model Component Attribution is on arXiv now [https://arxiv.org/pdf/2501.18887 \[PDF\]]
 - \[Dec 2024\] Selected as the top 10% of reviewers for KDD 2025 \n
 - \[Nov 2024\] Our paper on LLM-based explainable molecular concept learning is accepted by COLING 2025 [https://arxiv.org/pdf/2406.09612 \[PDF\]]\n
 - \[Oct 2024\] Our paper on explainable graph learning for predicting ICU length of stay is accepted by ISR [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF\]] \n
@@ -56,7 +56,7 @@ Dan Ley, Suraj Srinivas, *Shichang Zhang*, Gili Rusak, Himabindu Lakkaraju
 . Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller (MI@ICML 2024) [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n  
 Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu  
 . Efficient Ensembles Improve Training Data Attribution (DMLR@ICML 2024) [https://arxiv.org/pdf/2405.17293 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n 
-Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma  
+Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) 
 . Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks (*ICML 2024*) [https://arxiv.org/pdf/2401.08627 
 \[PDF\]] [https://github.com/haoyuli02/SymGNN \[Code\]]\n 
 Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) 

@@ -43,7 +43,7 @@ Dan Ley, Suraj Srinivas, *Shichang Zhang*, Gili Rusak, Himabindu Lakkaraju
 . Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller (MI@ICML 2024) [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n  
 Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu  
 . Efficient Ensembles Improve Training Data Attribution (DMLR@ICML 2024) [https://arxiv.org/pdf/2405.17293 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n 
-Junwei Deng, Ting-Wei Li, *Shichang Zhang*, Jiaqi Ma  
+Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) 
 . Parameter-Efficient Tuning Large Language Models for Graph Representation Learning (Pre-print) [https://arxiv.org/pdf/2404.18271 \[PDF\]] \n 
 Qi Zhu, Da Zheng, Xiang Song, *Shichang Zhang*, Bowen Jin, Yizhou Sun, George Karypis  
 . A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware (Pre-print) [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] 
