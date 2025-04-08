@@ -21,6 +21,8 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 ~~~
 
 == What's New
+- \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025. [https://arxiv.org/abs/2504.02904 \[PDF\]]
+- \[Apr 2025\] Give a talk on AI Interpretability at Emory University.
 - \[Feb 2025\] Serving as an Area Chair for ACL ARR 2025.
 - \[Feb 2025\] Our paper on Advancing Interpretability by Unifying Feature, Data and Model Component Attribution is on arXiv now. [https://arxiv.org/pdf/2501.18887 \[PDF\]]
 - \[Dec 2024\] Selected as the top 10% of reviewers for KDD 2025. \n
@@ -47,6 +49,9 @@ My research interests include
 
 
 == Selected Publications and Pre-prints
+. How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence \n
+Hongzhe Du\*, Weikai Li\*, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
+NENLP 2025 Oral (5/90) [https://arxiv.org/abs/2504.02904 \[PDF\]] \n
 . Building Bridges, Not Walls - Advancing Interpretability by Unifying Feature, Data and Model Component Attribution \n
 *Shichang Zhang*, Tessa Han, Usha Bhalla, Himabindu Lakkaraju \n
 BuildingTrust@ICLR 2025 [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
@@ -59,9 +64,6 @@ ISR Oct. 2024 [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[
 . Generalized Group Data Attribution \n
 Dan Ley, Suraj Srinivas, *Shichang Zhang*, Gili Rusak, Himabindu Lakkaraju \n
 ATTRIB@NeurIPS 2024 [https://arxiv.org/pdf/2410.09940 \[PDF\]]\n
-. Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller \n
-Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu \n
-MI@ICML 2024 [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]\n  
 . Efficient Ensembles Improve Training Data Attribution \n
 Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) \n
 DMLR@ICML 2024 [https://arxiv.org/pdf/2405.17293 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n
