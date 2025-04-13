@@ -21,7 +21,8 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 ~~~
 
 == What's New
-- \[April 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025. [https://arxiv.org/abs/2504.02904 \[PDF\]]
+- \[April 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/abs/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
+- \[April 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025.
 - \[April 2025\] Give a talk on AI Interpretability at Georgia Institute of Technology.
 - \[April 2025\] Give a talk on AI Interpretability at Emory University.
 - \[Feb 2025\] Serving as an Area Chair for ACL ARR 2025.
@@ -52,7 +53,7 @@ My research interests include
 == Selected Publications and Pre-prints
 . How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence \n
 Hongzhe Du\*, Weikai Li\*, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
-NENLP 2025 Oral (5/90) [https://arxiv.org/abs/2504.02904 \[PDF\]] \n
+NENLP 2025 *Outstanding Paper* [https://arxiv.org/abs/2504.02904 \[PDF\]] [slides/2025_04_NENLP.pdf \[slides\]]\n
 . Building Bridges, Not Walls - Advancing Interpretability by Unifying Feature, Data and Model Component Attribution \n
 *Shichang Zhang*, Tessa Han, Usha Bhalla, Himabindu Lakkaraju \n
 BuildingTrust@ICLR 2025 [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
@@ -85,6 +86,7 @@ ICLR 2022 [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/sna
 
 
 == Honors and Awards
+- NENLP Outstanding Paper Award, 2025
 - KDD Outstanding Reviewer (Top 10\%), 2025
 - KDD Excellence in Reviewing (30 in 1551), 2023
 - [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellow], 2023
