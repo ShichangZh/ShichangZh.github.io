@@ -17,14 +17,15 @@ During my Ph.D. at UCLA, I organized the Data Mining Reading Group for two years
 === Contact
 Science and Engineering Complex (SEC) 6.220, 150 Western Ave, Boston, MA 02134 \n
 E-mail: /shzhang/ AT hbs DOT edu \n
-[https://scholar.google.com/citations?user=TYqG0x4AAAAJ&hl=en&oi=ao \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://www.linkedin.com/in/shichang-ray-zhang-4430a4106/ \[LinkedIn\]] [https://x.com/shichangzhang \[X\]] [cv/shichang_zhang_cv.pdf \[CV\]]
+[https://scholar.google.com/citations?hl=en&user=TYqG0x4AAAAJ&view_op=list_works&sortby=pubdate \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://www.linkedin.com/in/shichang-ray-zhang-4430a4106/ \[LinkedIn\]] [https://x.com/shichangzhang \[X\]] [cv/shichang_zhang_cv.pdf \[CV\]]
 ~~~
 
 == What's New
-- \[April 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/abs/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
-- \[April 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025.
-- \[April 2025\] Give a talk on AI Interpretability at Georgia Institute of Technology.
-- \[April 2025\] Give a talk on AI Interpretability at Emory University.
+- \[June 2024\] Selected as the top 10% of reviewers for KDD 2025 again for the February cycle. \n
+- \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/abs/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
+- \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025.
+- \[Apr 2025\] Give a talk on AI Interpretability at Georgia Institute of Technology.
+- \[Apr 2025\] Give a talk on AI Interpretability at Emory University.
 - \[Feb 2025\] Serving as an Area Chair for ACL ARR 2025.
 - \[Feb 2025\] Our paper on Advancing Interpretability by Unifying Feature, Data and Model Component Attribution is on arXiv now. [https://arxiv.org/pdf/2501.18887 \[PDF\]]
 - \[Dec 2024\] Selected as the top 10% of reviewers for KDD 2025. \n
@@ -33,10 +34,7 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 - \[Oct 2024\] Our paper on generalized group data attribution is on arXiv now. [https://arxiv.org/pdf/2410.09940 \[PDF\]]
 - \[July 2024\] A [miscellaneous/Knowledge_in_LLMs.pdf Mind Map of Knowledge in LLMs]. \n
 - \[June 2024\] Our paper on controlling LLM behaviors with LLM itself as a judge is on arXiv now. [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n
-- \[May 2024\] Defended my Ph.D. thesis "Explainable AI for Graph Data".
-- \[May 2024\] Our paper on efficient ensembling for training data attribution is on arXiv now. [https://arxiv.org/pdf/2405.17293 \[PDF\]]
-- \[May 2024\] Our paper on measure-theoretic compact fuzzy set representation for taxonomy expansion is accepted by ACL 2024 as Findings. [https://openreview.net/pdf?id=ZhhOH9zFhC \[PDF\]]
-- \[May 2024\] Two papers on GNNs for explainable material science and benchmarking LLMs on scientific problems are accepted by ICML 2024. [https://arxiv.org/pdf/2401.08627 \[PDF1\]] [https://arxiv.org/pdf/2307.10635v2 \[PDF2\]] 
+
 
 [news.html Find out older news]
 
@@ -54,9 +52,9 @@ My research interests include
 . How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence \n
 Hongzhe Du\*, Weikai Li\*, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
 NENLP 2025 *Outstanding Paper* [https://arxiv.org/abs/2504.02904 \[PDF\]] [slides/2025_04_NENLP.pdf \[slides\]]\n
-. Building Bridges, Not Walls - Advancing Interpretability by Unifying Feature, Data and Model Component Attribution \n
+. Towards Unified Attribution in Explainable AI, Data-Centric AI, and Mechanistic Interpretability \n
 *Shichang Zhang*, Tessa Han, Usha Bhalla, Himabindu Lakkaraju \n
-BuildingTrust@ICLR 2025 [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
+Preprint [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
 . Automated Molecular Concept Generation and Labeling with Large Language Models \n
 Zimin Zhang\*, Qianli Wu\*, Botao Xia\*, Fang Sun, Ziniu Hu, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
 COLING 2025 [https://arxiv.org/abs/2406.09612 \[PDF\]] [https://github.com/ziminz19/AutoMolCo \[Code\]]\n
@@ -87,7 +85,7 @@ ICLR 2022 [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/sna
 
 == Honors and Awards
 - NENLP Outstanding Paper Award, 2025
-- KDD Outstanding Reviewer (Top 10\%), 2025
+- KDD Outstanding Reviewer (Top 10\%, two times for both Aug and Feb cycles), 2025
 - KDD Excellence in Reviewing (30 in 1551), 2023
 - [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellow], 2023
 - [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI PhD Fellowship], 2023

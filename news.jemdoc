@@ -2,6 +2,10 @@
 == Shichang (Ray) Zhang 
 
 == Older News
+- \[May 2024\] Defended my Ph.D. thesis "Explainable AI for Graph Data".
+- \[May 2024\] Our paper on efficient ensembling for training data attribution is on arXiv now. [https://arxiv.org/pdf/2405.17293 \[PDF\]]
+- \[May 2024\] Our paper on measure-theoretic compact fuzzy set representation for taxonomy expansion is accepted by ACL 2024 as Findings. [https://openreview.net/pdf?id=ZhhOH9zFhC \[PDF\]]
+- \[May 2024\] Two papers on GNNs for explainable material science and benchmarking LLMs on scientific problems are accepted by ICML 2024. [https://arxiv.org/pdf/2401.08627 \[PDF1\]] [https://arxiv.org/pdf/2307.10635v2 \[PDF2\]] 
 - \[Feb 2024\] Give a talk on Explainable AI for Graph Data and More at the AI4LIFE Group at Harvard.
 - \[Dec 2023\] Our paper on LLM-based explainable molecular concept learning is accepted by the XAI4Sci workshop at AAAI 2024. [https://xai4sci.github.io/papers/2024/09_explainable_molecular_concept_learning_with_large_language_models.pdf \[PDF\]]\n
 - \[Dec 2023\] Our paper on GNNs for explainable material science is accepted by the AI4Mat workshop at NeurIPS 2023.
@@ -11,12 +15,12 @@
 - \[July 2023\] I am excited to receive the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship]. \n
 - \[July 2023\] Give a talk on the PaGE-Link paper at Amazon Trans.AI Research Talk Series. [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
 - \[June 2023\] Our survey paper on GNN acceleration is on arXiv now, which covers algorithms, systems, and customized hardware. [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]] \n
-- \[April 2023\] One paper on GNN distillation for link prediction is accepted by ICML 2023. [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] \n
+- \[Apr 2023\] One paper on GNN distillation for link prediction is accepted by ICML 2023. [https://arxiv.org/abs/2210.05801.pdf \[PDF\]] \n
 - \[Feb 2023\] Give a talk on the GStarX paper at AI TIME NeurIPS Talk Series. [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]] \n
 - \[Jan 2023\] One paper on GNN explanation for link prediction is accepted by WWW 2023. [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]] \n
 - \[Sept 2022\] One paper on GNN explanation is accepted by NeurIPS 2022. [https://arxiv.org/abs/2201.12380.pdf \[Paper\]]\n
 - \[July 2022\] Selected as the top 10% of reviewers for ICML 2022. \n
-- \[April 2022\] A draft chapter of [miscellaneous/A_Trip_from_Machine_Learning_to_Measure_and_Probability.pdf A Trip from Machine Learning to Measure and Probability]. \n
+- \[Apr 2022\] A draft chapter of [miscellaneous/A_Trip_from_Machine_Learning_to_Measure_and_Probability.pdf A Trip from Machine Learning to Measure and Probability]. \n
 - \[Jan 2022\] Two papers on graph distillation and graph condensation are accepted by ICLR 2022. [https://arxiv.org/pdf/2110.08727.pdf \[Paper1\]] [https://arxiv.org/pdf/2110.07580.pdf \[Paper2\]] \n
 - \[Nov 2021\] The first draft of [miscellaneous/Explainability.pdf Explainability Mind Map]. \n
 - \[Nov 2019\] First launch of my website. \n
