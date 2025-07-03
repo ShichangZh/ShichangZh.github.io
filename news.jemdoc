@@ -2,6 +2,7 @@
 == Shichang (Ray) Zhang 
 
 == Older News
+- \[June 2024\] Our paper on controlling LLM behaviors with LLM itself as a judge is on arXiv now. [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n
 - \[May 2024\] Defended my Ph.D. thesis "Explainable AI for Graph Data".
 - \[May 2024\] Our paper on efficient ensembling for training data attribution is on arXiv now. [https://arxiv.org/pdf/2405.17293 \[PDF\]]
 - \[May 2024\] Our paper on measure-theoretic compact fuzzy set representation for taxonomy expansion is accepted by ACL 2024 as Findings. [https://openreview.net/pdf?id=ZhhOH9zFhC \[PDF\]]
