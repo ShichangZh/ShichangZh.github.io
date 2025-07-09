@@ -21,6 +21,7 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 ~~~
 
 == What's New
+- \[July 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs is accepted by COLM 2025. [https://arxiv.org/abs/2504.02904 \[PDF\]]\n
 - \[June 2025\] Selected as the top 10% of reviewers for KDD 2025 again for the February cycle. \n
 - \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/abs/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
 - \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025.
@@ -51,7 +52,7 @@ My research interests include
 == Selected Publications and Pre-prints
 . How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence \n
 Hongzhe Du\*, Weikai Li\*, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
-NENLP 2025 *Outstanding Paper* [https://arxiv.org/abs/2504.02904 \[PDF\]] [slides/2025_04_NENLP.pdf \[slides\]]\n
+COLM 2025 (NENLP *Outstanding Paper*) [https://arxiv.org/abs/2504.02904 \[PDF\]] [slides/2025_04_NENLP.pdf \[slides\]]\n
 . Towards Unified Attribution in Explainable AI, Data-Centric AI, and Mechanistic Interpretability \n
 *Shichang Zhang*, Tessa Han, Usha Bhalla, Himabindu Lakkaraju \n
 Preprint [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
