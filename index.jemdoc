@@ -23,7 +23,7 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 == What's New
 - \[July 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs is accepted by COLM 2025. [https://arxiv.org/abs/2504.02904 \[PDF\]]\n
 - \[June 2025\] Selected as the top 10% of reviewers for KDD 2025 again for the February cycle. \n
-- \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/abs/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
+- \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/pdf/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
 - \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025.
 - \[Apr 2025\] Give a talk on AI Interpretability at Georgia Institute of Technology.
 - \[Apr 2025\] Give a talk on AI Interpretability at Emory University.
@@ -67,7 +67,7 @@ Dan Ley, Suraj Srinivas, *Shichang Zhang*, Gili Rusak, Himabindu Lakkaraju \n
 ATTRIB@NeurIPS 2024 [https://arxiv.org/pdf/2410.09940 \[PDF\]]\n
 . Efficient Ensembles Improve Training Data Attribution \n
 Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) \n
-DMLR@ICML 2024 [https://arxiv.org/pdf/2405.17293 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n
+ATTRIB@NeurIPS 2024 [https://openreview.net/pdf?id=ghp4GWDFd1 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n
 . Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks \n
 Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) \n
 ICML 2024 [https://arxiv.org/pdf/2401.08627 \[PDF\]] [https://github.com/haoyuli02/SymGNN \[Code\]]\n
@@ -76,7 +76,7 @@ ICML 2024 [https://arxiv.org/pdf/2401.08627 \[PDF\]] [https://github.com/haoyuli
 WWW 2023 [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]] [https://github.com/amazon-science/page-link-path-based-gnn-explanation \[Code\]]\n  
 . GStarX: Explaining Graph Neural Networks with Structure-Aware Cooperative Games \n
 *Shichang Zhang*, Neil Shah, Yozen Liu, Yizhou Sun \n
-NeurIPS 2022 [https://arxiv.org/abs/2201.12380.pdf \[PDF\]] [https://github.com/ShichangZh/GStarX \[Code\]]\n  
+NeurIPS 2022 [https://arxiv.org/pdf/2201.12380 \[PDF\]] [https://github.com/ShichangZh/GStarX \[Code\]]\n  
 . Graph-less Neural Networks, Teach Old MLPs New Tricks via Distillation \n
 *Shichang Zhang*, Yozen Liu, Yizhou Sun, Neil Shah \n
 ICLR 2022 [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/snap-research/graphless-neural-networks \[Code\]]\n  
