@@ -12,7 +12,7 @@
 -- \[Feb 2024\] AI4LIFE Group at Harvard \[slides may be shared upon request\]\n
 - Graph Neural Network Explanation for Heterogeneous Link Prediction \n
 -- \[July 2023\] Amazon Trans.AI Research Talks [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
--- \[May 2023\] International World Wide Web Conference [slides/2023_05_PaGELink_WWW.pdf \[slides\]] \n
+-- \[May 2023\] International World Wide Web Conference [slides/2023_05_PaGELink_WWW.pdf \[slides\]] [https://www.youtube.com/watch?v=b4zto-jEB9k \[video\]] \n
 
 - Structure-Aware Graph Neural Network Explanation \n
 \[Feb 2023\] AI Time NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]]
@@ -21,7 +21,7 @@
 
 == Talks at UCLA Data Mining Reading Group
 
-- \[Feb 2024\] Explain AI Models by Locating and Editing Knowledge [slides/2024_02_knowledge.pdf \[slides\]][https://drive.google.com/file/d/1w8XSu69gRyT6gfKcgczApIlOQL2yXnXS/view?usp=drive_link \[video\]]
+- \[Feb 2024\] Explain AI Models by Locating and Editing Knowledge [slides/2024_02_knowledge.pdf \[slides\]][https://www.youtube.com/watch?v=CSOPpdDn03M \[video\]]
 - \[Nov 2022\] Recent Progress in GNN Explainability [slides/2022_11_GNN_Explainability2.pdf \[slides\]]
 - \[Oct 2022\] Diffusion Models For Text To Image Generation [slides/2022_10_Diffusion_models_for_text_to_image_generation.pdf \[slides\]]
 - \[April 2022\] The Lottery Ticket Hypothesis and Its Application on GNNs [slides/2022_04_The_Lottery_Ticket_Hypothesis.pdf \[slides\]]

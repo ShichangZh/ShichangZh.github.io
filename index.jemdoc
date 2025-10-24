@@ -2,13 +2,21 @@
 = Shichang (Ray) Zhang 
 
 ~~~
-{}{img_left}{img/bio2.jpg}{alt text}{260}{300}{https://shichangzh.github.io/}
-# {}{img_left}{img/bio.png}{alt text}{285}{300}{https://shichangzh.github.io/}
+{}{img_left}{img/bio2.jpg}{alt text}{280}{320}{https://shichangzh.github.io/}
 
 === About Me
-I am Shichang (Ray) Zhang. I am a postdoctoral fellow at the [https://d3.harvard.edu/ D^3 Institute at Harvard University] working with Professor [https://himalakkaraju.github.io/ Hima Lakkaraju]. I received my Ph.D. in Computer Science from [http://www.ucla.edu/ University of California, Los Angeles (UCLA)], where I was very fortunate to have Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun] as my advisor. My Ph.D. research was generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before joining UCLA, I received my M.S. and B.A., both in Statistics, from [https://statistics.stanford.edu/ Stanford] and [https://statistics.berkeley.edu/ Berkeley] respectively. 
+I am Shichang (Ray) Zhang. I am a postdoctoral fellow at the [https://d3.harvard.edu/ D^3 Institute at Harvard University] working with Professor [https://himalakkaraju.github.io/ Hima Lakkaraju]. I received my Ph.D. in Computer Science from [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] advised by Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My Ph.D. research was generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before UCLA, I received my M.S. and B.A., both in Statistics, from [https://statistics.stanford.edu/ Stanford] and [https://statistics.berkeley.edu/ Berkeley] respectively. 
 
-During my Ph.D. at UCLA, I organized the Data Mining Reading Group for two years. Slides and recordings of the reading groups can be found [https://ucla-dm.github.io/DM_website/reading/course.html here]. My presentations at the reading group can be found under [talks.html Talks].
+My research aims to *scientifically understand AI to ensure it is trustworthy and beneficial to humanity*. I have developed principled methods to analyze and improve the trustworthiness of AI systems across the *full spectrum* from data to model to training: 
+(1) Data-wise, I design methods to examine how data features drive AI decisions at inference time, with applications in [https://arxiv.org/pdf/2401.08627 science], [https://arxiv.org/pdf/2302.12465 e-commerce], and [https://pubsonline.informs.org/doi/abs/10.1287/isre.2023.0029?journalCode=isre healthcare]. (2) Model-wise, I study large language models (LLMs) to reveal their [https://arxiv.org/pdf/2504.02904 internal mechanisms] and [https://arxiv.org/pdf/2307.10635v2 reasoning capabilities], enabling task-specific [https://arxiv.org/pdf/2406.09612 interpretable models] built upon them. (3) Training-wise, I develop techniques to measure the  training influence on AI behavior, providing new tools for [https://openreview.net/pdf?id=ghp4GWDFd1 training data assessment], [https://arxiv.org/pdf/2506.00175 model auditing, and credit assignment to developers]. Collectively, my research moves beyond black-box empiricism toward a holistic scientific understanding of AI.
+
+
+{{<span style="color:red">I am on the academic job market for the 2025 to 2026 cycle. If you believe I am a good fit for your institution, please don't hesitate to reach out at shzhang AT hbs DOT edu.</span>}} \n
+[cv/shichang_zhang_CV.pdf \[CV\]] [https://drive.google.com/file/d/1kRY7HHc54eScmcCyeVQJoRkPgeimRV5i/view?usp=drive_link \[Research Statement\]] [https://drive.google.com/file/d/1FopvxdYuSq7YW3zk5qjc-ovGYJrsVIiW/view?usp=drive_link \[Teaching Statement\]] [https://www.youtube.com/watch?v=CSOPpdDn03M \[Talk Sample\]]
+
+
+
+# During my Ph.D. at UCLA, I organized the Data Mining Reading Group for two years. Slides and recordings of the reading groups can be found [https://ucla-dm.github.io/DM_website/reading/course.html here]. My presentations at the reading group can be found under [talks.html Talks].
 
 # , where I held cutting-edge research papers readings, AI course studies, and hosted 13 guest speakers from both academia and industry. The AI courses we covered included neurosymbolic methods, diffusion models, large language models, differential geometry, spectral graph theory, neural radiance fields, and many more. 
 
@@ -17,11 +25,11 @@ During my Ph.D. at UCLA, I organized the Data Mining Reading Group for two years
 === Contact
 Science and Engineering Complex (SEC) 6.220, 150 Western Ave, Boston, MA 02134 \n
 E-mail: /shzhang/ AT hbs DOT edu \n
-[https://scholar.google.com/citations?hl=en&user=TYqG0x4AAAAJ&view_op=list_works&sortby=pubdate \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://www.linkedin.com/in/shichang-ray-zhang-4430a4106/ \[LinkedIn\]] [https://x.com/shichangzhang \[X\]] [cv/shichang_zhang_cv.pdf \[CV\]]
+[https://scholar.google.com/citations?hl=en&user=TYqG0x4AAAAJ&view_op=list_works&sortby=pubdate \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://www.linkedin.com/in/shichang-ray-zhang-4430a4106/ \[LinkedIn\]] [https://x.com/shichangzhang \[X\]]
 ~~~
 
 == What's New
-- \[July 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs is accepted by COLM 2025. [https://arxiv.org/abs/2504.02904 \[PDF\]]\n
+- \[July 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs is accepted by COLM 2025. [https://arxiv.org/pdf/2504.02904 \[PDF\]]\n
 - \[June 2025\] Selected as the top 10% of reviewers for KDD 2025 again for the February cycle. \n
 - \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/pdf/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
 - \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025.
@@ -33,41 +41,25 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 - \[Nov 2024\] Our paper on LLM-based explainable molecular concept learning is accepted by COLING 2025. [https://arxiv.org/pdf/2406.09612 \[PDF\]]\n
 - \[Oct 2024\] Our paper on explainable graph learning for predicting ICU length of stay is accepted by ISR. [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF\]] \n
 - \[Oct 2024\] Our paper on generalized group data attribution is on arXiv now. [https://arxiv.org/pdf/2410.09940 \[PDF\]]
-- \[July 2024\] A [miscellaneous/Knowledge_in_LLMs.pdf Mind Map of Knowledge in LLMs]. \n
-
 
 
 [news.html Find out older news]
 
-== Research Interests
-My research interests include 
-- Explainable AI
-- Data Attribution
-- Mechanistic Interpretability
-- Large Language Models
-- Graph Data Mining
-- Model Efficiency
 
 
-== Selected Publications and Pre-prints
+== Selected Publications and Preprints
 . How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence \n
 Hongzhe Du\*, Weikai Li\*, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
-COLM 2025 (NENLP *Outstanding Paper*) [https://arxiv.org/abs/2504.02904 \[PDF\]] [slides/2025_04_NENLP.pdf \[slides\]]\n
+COLM 2025 (NENLP *Outstanding Paper*) [https://arxiv.org/pdf/2504.02904 \[PDF\]] [slides/2025_04_NENLP.pdf \[slides\]]\n
 . Towards Unified Attribution in Explainable AI, Data-Centric AI, and Mechanistic Interpretability \n
 *Shichang Zhang*, Tessa Han, Usha Bhalla, Himabindu Lakkaraju \n
-Preprint [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
+Preprint, Under Review [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
 . Automated Molecular Concept Generation and Labeling with Large Language Models \n
 Zimin Zhang\*, Qianli Wu\*, Botao Xia\*, Fang Sun, Ziniu Hu, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
-COLING 2025 [https://arxiv.org/abs/2406.09612 \[PDF\]] [https://github.com/ziminz19/AutoMolCo \[Code\]]\n
+COLING 2025 [https://arxiv.org/pdf/2406.09612 \[PDF\]] [https://github.com/ziminz19/AutoMolCo \[Code\]]\n
 . An Explainable AI Approach using Graph Learning to Predict ICU Length of Stay \n
 Tianjian Guo, Indranil Bardhan, Ying Ding, *Shichang Zhang* \n
 ISR Oct. 2024 [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF\]]\n
-. Generalized Group Data Attribution \n
-Dan Ley, Suraj Srinivas, *Shichang Zhang*, Gili Rusak, Himabindu Lakkaraju \n
-ATTRIB@NeurIPS 2024 [https://arxiv.org/pdf/2410.09940 \[PDF\]]\n
-. Efficient Ensembles Improve Training Data Attribution \n
-Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) \n
-ATTRIB@NeurIPS 2024 [https://openreview.net/pdf?id=ghp4GWDFd1 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n
 . Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks \n
 Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) \n
 ICML 2024 [https://arxiv.org/pdf/2401.08627 \[PDF\]] [https://github.com/haoyuli02/SymGNN \[Code\]]\n
@@ -93,3 +85,11 @@ ICLR 2022 [https://arxiv.org/pdf/2110.08727.pdf \[PDF\]] [https://github.com/sna
 - [https://research.snap.com/fellowships.html Snap Research Fellowship Honorable Mention], 2022
 - ICML Top Reviewer (Top 10\%), 2022
 - UCLA Graduate Division Fellowship, 2021
+
+
+#~~~
+#{}{raw}
+#<div style="font-size: 0.9em; font-style: italic; margin-top: 20px; padding: 10px; border-left: 3px solid #ccc;">
+#"The product of mathematics is clarity and understanding." - William Thurston
+#</div>
+#~~~

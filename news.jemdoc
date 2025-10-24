@@ -2,6 +2,7 @@
 == Shichang (Ray) Zhang 
 
 == Older News
+- \[July 2024\] A [miscellaneous/Knowledge_in_LLMs.pdf Mind Map of Knowledge in LLMs]. \n
 - \[June 2024\] Our paper on controlling LLM behaviors with LLM itself as a judge is on arXiv now. [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]] \n
 - \[May 2024\] Defended my Ph.D. thesis "Explainable AI for Graph Data".
 - \[May 2024\] Our paper on efficient ensembling for training data attribution is on arXiv now. [https://arxiv.org/pdf/2405.17293 \[PDF\]]
