@@ -4,7 +4,7 @@
 == Publications  
 . How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence \n
 Hongzhe Du\*, Weikai Li\*, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
-COLM 2025 (NENLP *Outstanding Paper*) [https://arxiv.org/pdf/2504.02904 \[PDF\]] \n  
+COLM 2025 (NENLP *Outstanding Paper*) [https://arxiv.org/pdf/2504.02904 \[PDF\]] [https://github.com/HZD01/post-training-mechanistic-analysis \[Code\]] \n  
 . Automated Molecular Concept Generation and Labeling with Large Language Models \n
 Zimin Zhang\*, Qianli Wu\*, Botao Xia\*, Fang Sun, Ziniu Hu, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
 COLING 2025 [https://arxiv.org/pdf/2406.09612 \[PDF\]] [https://github.com/ziminz19/AutoMolCo \[Code\]]\n
