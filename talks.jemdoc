@@ -1,6 +1,10 @@
 # jemdoc: menu{MENU}{talks.html}, nofooter  
 == Shichang (Ray) Zhang 
 
+== Tutorial
+- Explain AI Models: Methods and Opportunities in Explainable AI, Data-Centric AI, and Mechanistic Interpretability \n
+-- \[Dec 2025] NeurIPS 2025 [https://shichangzh.github.io/xaiTutorial/ \[website\]][https://drive.google.com/file/d/1tJfulzhQkkEqvOikUG1PpLKi1KD8R6BI/view?usp=sharing \[slides\]]
+
 == Invited Talks of My Research
 - How Post-Training Reshapes LLMs \n
 -- \[April 2025\] New England NLP Meeting [slides/2025_04_NENLP.pdf \[slides\]]\n

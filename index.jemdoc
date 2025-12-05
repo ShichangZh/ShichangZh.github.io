@@ -6,7 +6,7 @@
 
 === 
 {{<span style="color:red; font-size:120%">I am on the academic job market for the 2025 to 2026 cycle. If you believe I am a good fit for a position, please don't hesitate to reach out.}} \n
-[cv/shichang_zhang_CV.pdf \[CV\]] [https://drive.google.com/file/d/1kRY7HHc54eScmcCyeVQJoRkPgeimRV5i/view?usp=drive_link \[Research Statement\]] [https://drive.google.com/file/d/1FopvxdYuSq7YW3zk5qjc-ovGYJrsVIiW/view?usp=drive_link \[Teaching Statement\]] [https://www.youtube.com/watch?v=CSOPpdDn03M \[Talk Sample\]]
+[cv/shichang_zhang_CV.pdf \[CV\]] [https://drive.google.com/file/d/1kRY7HHc54eScmcCyeVQJoRkPgeimRV5i/view?usp=drive_link \[Research Statement\]] [https://drive.google.com/file/d/1FopvxdYuSq7YW3zk5qjc-ovGYJrsVIiW/view?usp=drive_link \[Teaching Statement\]] [https://neurips.cc/virtual/2025/loc/san-diego/109599 \[Talk Sample 1 (need to login to NeurIPS)\]][https://www.youtube.com/watch?v=CSOPpdDn03M \[Talk Sample 2\]]
 
 === {{<span style="font-size:120%">Contact}}
 {{<span style="font-size:120%">
@@ -36,6 +36,7 @@ Collectively, my research moves beyond black-box empiricism toward a holistic sc
 
 
 # == What's New
+# - \[Dec 2025\] Give a tutorial talk on explainable AI at NeurIPS 2025 [https://shichangzh.github.io/xaiTutorial/ \[website\]].
 # - \[July 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been accepted by COLM 2025. [https://arxiv.org/pdf/2504.02904 \[PDF\]]\n
 # - \[June 2025\] Selected as one of the top 10% of reviewers for KDD 2025 again for the February cycle. \n
 # - \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/pdf/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
@@ -61,7 +62,7 @@ Zimin Zhang\*, Qianli Wu\*, Botao Xia\*, Fang Sun, Ziniu Hu, Yizhou Sun, *Shicha
 COLING 2025 [https://arxiv.org/pdf/2406.09612 \[PDF\]] [https://github.com/ziminz19/AutoMolCo \[Code\]]\n
 . An Explainable AI Approach using Graph Learning to Predict ICU Length of Stay \n
 Tianjian Guo, Indranil Bardhan, Ying Ding, *Shichang Zhang* \n
-ISR Oct. 2024 [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF\]]\n
+ISR Oct. 2024 [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF (official)\]] [https://shichangzh.github.io/preprints/LoS_XAI_ISR.pdf \[PDF (preprint)\]]\n
 . Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks \n
 Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) \n
 ICML 2024 [https://arxiv.org/pdf/2401.08627 \[PDF\]] [https://github.com/haoyuli02/SymGNN \[Code\]]\n
