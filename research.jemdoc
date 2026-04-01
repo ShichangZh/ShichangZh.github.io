@@ -1,7 +1,10 @@
 # jemdoc: menu{MENU}{research.html}, nofooter  
 == Shichang (Ray) Zhang 
 
-== Publications  
+== Publications
+. A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware \n
+*Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun \n
+CSUR 2026 [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]]\n    
 . How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence \n
 Hongzhe Du\*, Weikai Li\*, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
 COLM 2025 (NENLP *Outstanding Paper*) [https://arxiv.org/pdf/2504.02904 \[PDF\]] [https://github.com/HZD01/post-training-mechanistic-analysis \[Code\]] \n  
@@ -72,8 +75,6 @@ ATTRIB@NeurIPS 2024 [https://openreview.net/pdf?id=ghp4GWDFd1 \[PDF\]] [https://
 . Parameter-Efficient Tuning Large Language Models for Graph Representation Learning \n
 Qi Zhu, Da Zheng, Xiang Song, *Shichang Zhang*, Bowen Jin, Yizhou Sun, George Karypis \n
 Preprint [https://arxiv.org/pdf/2404.18271 \[PDF\]]\n
-. A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware \n
-*Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun \n
-Preprint [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]]\n  
+
 
 
