@@ -2,6 +2,9 @@
 == Shichang (Ray) Zhang 
 
 == Publications
+. Efficient Ensembles Improve Training Data Attribution \n
+Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) \n
+TMLR 2026 [https://arxiv.org/pdf/2405.17293 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n
 . A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware \n
 *Shichang Zhang*, Atefeh Sohrabizadeh, Cheng Wan, Zijie Huang, Ziniu Hu, Yewen Wang, Yingyan (Celine) Lin, Jason Cong, Yizhou Sun \n
 CSUR 2026 [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]]\n    
@@ -69,9 +72,6 @@ Preprint [https://arxiv.org/pdf/2406.11884.pdf \[PDF\]]\n
 . Self-Control of LLM Behaviors by Compressing Suffix Gradient into Prefix Controller \n
 Min Cai, Yuchen Zhang, *Shichang Zhang*, Fan Yin, Difan Zou, Yisong Yue, Ziniu Hu \n
 MI@ICML 2024 [https://arxiv.org/pdf/2406.02721 \[PDF\]] [https://github.com/HenryCai11/LLM-Self-Control \[Code\]] [https://llm-self-control.github.io/ \[Website\]]\n  
-. Efficient Ensembles Improve Training Data Attribution \n
-Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) \n
-ATTRIB@NeurIPS 2024 [https://openreview.net/pdf?id=ghp4GWDFd1 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n
 . Parameter-Efficient Tuning Large Language Models for Graph Representation Learning \n
 Qi Zhu, Da Zheng, Xiang Song, *Shichang Zhang*, Bowen Jin, Yizhou Sun, George Karypis \n
 Preprint [https://arxiv.org/pdf/2404.18271 \[PDF\]]\n
