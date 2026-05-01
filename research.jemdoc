@@ -2,6 +2,12 @@
 == Shichang (Ray) Zhang 
 
 == Publications
+. Who Gets Credit or Blame? Attributing Accountability in Modern AI Systems \n
+*Shichang Zhang*, Hongzhe Du, Jiaqi W. Ma, Himabindu Lakkaraju \n 
+ICML 2026 [https://arxiv.org/pdf/2506.00175 \[PDF\]]\n
+. Explainability Research Must Prioritize Foundations over Ad-hoc Methods \n  
+Michal Moshkovitz, Suraj Srinivas, Lesia Semenova, Nave Frost, Cyrus Rashtchian, Valentyn Boreiko, *Shichang Zhang*, Himabindu Lakkaraju, Cynthia Rudin, Jennifer Wortman Vaughan \n
+ICML 2026 \n
 . Efficient Ensembles Improve Training Data Attribution \n
 Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) \n
 TMLR 2026 [https://arxiv.org/pdf/2405.17293 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n
@@ -54,9 +60,6 @@ ICLR 2022 [https://arxiv.org/pdf/2110.07580.pdf \[PDF\]] [https://github.com/Cha
 
 
 == Workshop Papers and Preprints
-. Who Gets Credit or Blame? Attributing Accountability in Modern AI Systems \n
-*Shichang Zhang*, Hongzhe Du, Jiaqi W. Ma, Himabindu Lakkaraju \n 
-Preprint [https://arxiv.org/pdf/2506.00175 \[PDF\]]\n
 . Towards Unified Attribution in Explainable AI, Data-Centric AI, and Mechanistic Interpretability \n
 *Shichang Zhang*, Tessa Han, Usha Bhalla, Himabindu Lakkaraju \n
 Preprint [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
@@ -66,6 +69,12 @@ Preprint [https://arxiv.org/pdf/2410.09940 \[PDF\]]\n
 . Computational Copyright: Towards A Royalty Model for Music Generative AI \n
 Junwei Deng, Xirui Jiang, Shiyuan Zhang, *Shichang Zhang*, Himabindu Lakkaraju, Ruijiang Gao, Chris Donahue, Jiaqi W. Ma \n
 Preprint [https://arxiv.org/abs/2312.06646 \[PDF\]]\n
+. From Indirect Object Identification to Syllogisms: Exploring Binary Mechanisms in Transformer Circuits \n  
+Karim Saraipour, *Shichang Zhang* \n  
+(MechInterp@NeurIPS), 2025 [https://openreview.net/pdf?id=CTAprZMIHl \[PDF\]]\n
+. On the Retention of Edited Knowledge in Fine-Tuned Language Models \n  
+Fufang Wen, *Shichang Zhang* \n  
+(ORIGen@COLM), 2025 [https://origen-workshop.github.io/assets/pdf/2025/papers/13_On_the_Retention_of_Edited_.pdf \[PDF\]]\n
 . Hierarchical Compression of Text-Rich Graphs via Large Language Models \n
 *Shichang Zhang*, Da Zheng, Jiani Zhang, Qi Zhu, Xiang Song, Soji Adeshina, Christos Faloutsos, George Karypis, Yizhou Sun \n
 Preprint [https://arxiv.org/pdf/2406.11884.pdf \[PDF\]]\n

@@ -26,6 +26,7 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 # Please feel free to email me if you are interested in becoming a guest speaker. We especially welcome senior-year PhDs to practice their job talks and the first authors to present their recent work published in top conferences.
 
 == What's New
+- \[Apr 2026\] One paper on accountability attribution and one position paper on XAI research fundations are accepted by ICML 2026. \n
 - \[Apr 2026\] Our paper on efficient ensemble for data attribution is accepted by TMLR 2026. [https://arxiv.org/pdf/2405.17293 \[PDF\]]\n
 - \[Mar 2026\] Our GNN acceleration survey paper is accepted by CSUR 2026. [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]]\n
 - \[Dec 2025\] Give a tutorial talk on explainable AI at NeurIPS 2025. [https://shichangzh.github.io/xaiTutorial/ \[website\]]
@@ -37,19 +38,13 @@ E-mail: /shzhang/ AT hbs DOT edu \n
 
 [news.html Find out older news]
 
-== Selected Publications and Preprints
+== Selected Publications
+. Who Gets Credit or Blame? Attributing Accountability in Modern AI Systems \n
+*Shichang Zhang*, Hongzhe Du, Jiaqi W. Ma, Himabindu Lakkaraju \n 
+ICML 2026 [https://arxiv.org/pdf/2506.00175 \[PDF\]]\n
 . How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence \n
 Hongzhe Du\*, Weikai Li\*, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
 COLM 2025 (NENLP *Outstanding Paper*) [https://arxiv.org/pdf/2504.02904 \[PDF\]] [https://github.com/HZD01/post-training-mechanistic-analysis \[Code\]] [slides/2025_04_NENLP.pdf \[slides\]]\n
-. Towards Unified Attribution in Explainable AI, Data-Centric AI, and Mechanistic Interpretability \n
-*Shichang Zhang*, Tessa Han, Usha Bhalla, Himabindu Lakkaraju \n
-Preprint, Under Review [https://arxiv.org/pdf/2501.18887 \[PDF\]]\n
-. Who Gets Credit or Blame? Attributing Accountability in Modern AI Systems \n
-*Shichang Zhang*, Hongzhe Du, Jiaqi W. Ma, Himabindu Lakkaraju \n 
-Preprint, Under Review [https://arxiv.org/pdf/2506.00175 \[PDF\]]\n
-. Automated Molecular Concept Generation and Labeling with Large Language Models \n
-Zimin Zhang\*, Qianli Wu\*, Botao Xia\*, Fang Sun, Ziniu Hu, Yizhou Sun, *Shichang Zhang* (\*equal contribution) \n
-COLING 2025 [https://arxiv.org/pdf/2406.09612 \[PDF\]] [https://github.com/ziminz19/AutoMolCo \[Code\]]\n
 . An Explainable AI Approach using Graph Learning to Predict ICU Length of Stay \n
 Tianjian Guo, Indranil Bardhan, Ying Ding, *Shichang Zhang* \n
 ISR Oct. 2024 [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF (official)\]] [https://shichangzh.github.io/preprints/LoS_XAI_ISR.pdf \[PDF (preprint)\]]\n
