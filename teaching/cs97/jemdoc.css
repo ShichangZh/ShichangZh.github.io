@@ -603,10 +603,12 @@ table.imgtable td {
   vertical-align: top;
 }
 
+/* Left column holds the photo and, moved there by site.js, the contact block. */
 table.imgtable td:first-child {
-  flex: 0 0 auto;
+  flex: 0 0 19.5rem;
   /* jemdoc appends a filler &nbsp; after the image; zero it out so it does not
-     add a stray line box under the photo. */
+     add a stray line box under the photo. Anything placed in this cell has to
+     set its own font-size again -- see .hero-contact. */
   font-size: 0;
 }
 
@@ -617,10 +619,31 @@ table.imgtable td:last-child {
 
 table.imgtable img {
   display: block;
-  width: 16rem;
+  width: 100%;
   height: auto;
   border-radius: 14px;
   box-shadow: var(--shadow-md);
+}
+
+/* Contact block, relocated under the photo by site.js. */
+.hero-contact {
+  margin-top: 1.6rem;
+  /* Sized so the e-mail line fits the column without breaking mid-address. */
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+#layout-content .hero-contact h3 {
+  margin-top: 0;
+}
+
+#layout-content .hero-contact p {
+  margin-bottom: 0.55rem;
+}
+
+#layout-content .hero-contact p.icon-row {
+  margin-top: 1.15rem;
+  gap: 0.5rem 1.1rem;
 }
 
 /* Needs the id to outrank the general "#layout-content h2" top margin, so the
@@ -809,6 +832,11 @@ pre {
 
   table.imgtable tr {
     gap: 1.5rem;
+  }
+
+  /* Stacked: let the photo shrink but keep the contact block full width. */
+  table.imgtable td:first-child {
+    flex: 1 1 100%;
   }
 
   table.imgtable img {

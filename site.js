@@ -154,6 +154,44 @@
   }
 
   /* ---------------------------------------------------------------------
+   * 2b. Hero layout: move the Contact block under the photo.
+   *
+   * jemdoc's img_left block puts the image in the left cell and *everything*
+   * else in the right one, so the split has to happen here. The Contact
+   * heading and every element after it move into the left cell; the source
+   * keeps its natural order, and with JS off the page simply reads as before.
+   * ------------------------------------------------------------------ */
+  var hero = content && content.querySelector('table.imgtable');
+  if (hero) {
+    var cells = hero.getElementsByTagName('td');
+    if (cells.length >= 2) {
+      var leftCell = cells[0];
+      var rightCell = cells[1];
+      var heads = rightCell.getElementsByTagName('h3');
+      var contactHead = null;
+
+      for (var c = 0; c < heads.length; c++) {
+        if (/^contact\b/i.test(heads[c].textContent.trim())) {
+          contactHead = heads[c];
+          break;
+        }
+      }
+
+      if (contactHead && contactHead.parentNode === rightCell) {
+        var box = document.createElement('div');
+        box.className = 'hero-contact';
+        var cur = contactHead;
+        while (cur) {
+          var after = cur.nextSibling;
+          box.appendChild(cur);
+          cur = after;
+        }
+        leftCell.appendChild(box);
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------
    * 3. Light / dark switch. Defaults to the OS setting; the choice is
    * remembered, and applied before paint by the inline script in jemdoc.conf.
    * ------------------------------------------------------------------ */
