@@ -3,7 +3,7 @@
 	Shichang Zhang, UCLA, Summer 2024
 
 - *Course Description:* 
-The fundamental question this course aims to address is: given data arising in real-world, how does one analyze that data so as to understand the corresponding phenomenon. This course will cover topics in machine learning, data analytics, and statistical modeling classically employed for prediction. The course will be a blend of theoretical and practical instruction, providing a comprehensive, hands-on overview of the Data Science domain. The course will seek to teach students the data science lifecycle: data selection and cleaning, feature engineering, model selection, and prediction methodologies.
+The fundamental question this course aims to address is: given data arising in the real world, how does one analyze that data so as to understand the corresponding phenomenon. This course will cover topics in machine learning, data analytics, and statistical modeling classically employed for prediction. The course will be a blend of theoretical and practical instruction, providing a comprehensive, hands-on overview of the Data Science domain. The course will seek to teach students the data science lifecycle: data selection and cleaning, feature engineering, model selection, and prediction methodologies.
 
 - *Instructor:* Shichang Zhang (shichang AT ucla DOT edu)
 
@@ -17,7 +17,7 @@ The fundamental question this course aims to address is: given data arising in r
 -- Weikai Li (weikaili AT cs.ucla DOT edu)
 -- Zongyue Qin (qinzongyue AT cs.ucla DOT edu)
 
-- *Grading*
+- *Grading:*
 -- Homework 40\% (Homework 1 to 4, 10% each)
 -- Midterm Exam 25%
 -- Final Course Project 30%

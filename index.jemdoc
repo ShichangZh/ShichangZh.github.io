@@ -1,39 +1,31 @@
-# jemdoc: menu{MENU}{index.html}, nofooter 
-= Shichang (Ray) Zhang 
+# jemdoc: menu{MENU}{index.html}, nofooter, title{Shichang (Ray) Zhang}
+= Shichang (Ray) Zhang
+# Toward a holistic scientific understanding of trustworthy AI
 
 ~~~
-{}{img_left}{img/bio2.jpg}{alt text}{280}{320}{https://shichangzh.github.io/}
+{}{img_left}{img/bio2.jpg}{Photo of Shichang Zhang}{280}{320}{https://shichangzh.github.io/}
 
 == About Me
-I am Shichang (Ray) Zhang. I am a postdoctoral fellow at the [https://d3.harvard.edu/ Harvard Business School AI Institute] working with Professor [https://himalakkaraju.github.io/ Hima Lakkaraju]. I received my Ph.D. in Computer Science from [http://www.ucla.edu/ University of California, Los Angeles (UCLA)] advised by Professor [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. My Ph.D. research was generously supported by the [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship] and the [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellowship]. Before UCLA, I received my M.S. and B.A., both in Statistics, from [https://statistics.stanford.edu/ Stanford] and [https://statistics.berkeley.edu/ Berkeley], respectively. 
-
-My research aims to *scientifically understand AI to ensure it is trustworthy and beneficial to humanity*. I have developed principled methods to analyze and improve the trustworthiness of AI systems across the *full spectrum*, from model mechanisms to training processes to data features. 
+I am Shichang (Ray) Zhang, an Assistant Professor in the [https://wpcarey.asu.edu/information-systems-degrees Department of Information Systems] at the W. P. Carey School of Business, Arizona State University. Before joining ASU, I was a postdoctoral fellow at the [https://d3.harvard.edu/ Harvard Business School AI Institute] working with [https://himalakkaraju.github.io/ Hima Lakkaraju]. I received my Ph.D. in [https://www.cs.ucla.edu/ Computer Science at UCLA], advised by [http://web.cs.ucla.edu/~yzsun/ Yizhou Sun]. I received my M.S. in [https://statistics.stanford.edu/ Statistics at Stanford] and my B.A. in [https://statistics.berkeley.edu/ Statistics at Berkeley]. My research aims to *scientifically understand AI to ensure it is trustworthy and beneficial to humanity*. I have developed principled methods to analyze and improve the trustworthiness of AI systems, from model mechanisms to training processes to data features. 
 
 # (1) Model-wise, I study large language models (LLMs) to reveal their [https://arxiv.org/pdf/2504.02904 internal mechanisms] and [https://arxiv.org/pdf/2307.10635v2 reasoning capabilities], enabling task-specific [https://arxiv.org/pdf/2406.09612 interpretable models] built on them. (2) Training-wise,  I develop techniques to measure the training influence on AI behavior, providing new tools for [https://openreview.net/pdf?id=ghp4GWDFd1 training data assessment], [https://arxiv.org/pdf/2506.00175 model auditing, and credit assignment to developers]. (3) Data-wise, I design methods to [https://arxiv.org/pdf/2201.12380 examine how data features drive AI decisions], allowing non-expert users to interpret and effectively use AI in [https://pubsonline.informs.org/doi/abs/10.1287/isre.2023.0029?journalCode=isre healthcare], [https://arxiv.org/pdf/2401.08627 science], and [https://arxiv.org/pdf/2302.12465 e-commerce] applications. 
 # Collectively, my research moves beyond black-box empiricism toward a holistic scientific understanding for trustworthy AI
 
-=== {{<span style="font-size:120%">Contact}}
-Science and Engineering Complex (SEC) 6.220, 150 Western Ave, Boston, MA 02134 \n
-E-mail: /shzhang/ AT hbs DOT edu \n
+=== Contact
+300 E Lemon St. BAC 522, Tempe, AZ 85287 \n
+E-mail: /shichang.zhang/ AT asu DOT edu \n
 
-[cv/shichang_zhang_CV.pdf \[CV\]][https://scholar.google.com/citations?hl=en&user=TYqG0x4AAAAJ&view_op=list_works&sortby=pubdate \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://www.linkedin.com/in/shichang-ray-zhang-4430a4106/ \[LinkedIn\]] [https://x.com/shichangzhang \[X\]]
+[https://scholar.google.com/citations?hl=en&user=TYqG0x4AAAAJ&view_op=list_works&sortby=pubdate \[Google Scholar\]] [https://github.com/ShichangZh \[GitHub\]] [https://www.linkedin.com/in/shichang-ray-zhang-4430a4106/ \[LinkedIn\]] [https://x.com/shichangzhang \[X\]]
 ~~~
 
-# During my Ph.D. at UCLA, I organized the Data Mining Reading Group for two years. Slides and recordings of the reading groups can be found [https://ucla-dm.github.io/DM_website/reading/course.html here]. My presentations at the reading group can be found under [talks.html Talks].
-
-# , where I held cutting-edge research papers readings, AI course studies, and hosted 13 guest speakers from both academia and industry. The AI courses we covered included neurosymbolic methods, diffusion models, large language models, differential geometry, spectral graph theory, neural radiance fields, and many more. 
-
-# Please feel free to email me if you are interested in becoming a guest speaker. We especially welcome senior-year PhDs to practice their job talks and the first authors to present their recent work published in top conferences.
-
 == What's New
-- \[Apr 2026\] One paper on accountability attribution and one position paper on XAI research fundations are accepted by ICML 2026. \n
+- \[July 2026\] Started as an Assistant Professor in the Department of Information Systems at Arizona State University.
+- \[May 2026\] Serving as an Area Chair for NeurIPS 2026.
+- \[Apr 2026\] One paper on accountability attribution and one position paper on XAI research foundations are accepted by ICML 2026. \n
 - \[Apr 2026\] Our paper on efficient ensemble for data attribution is accepted by TMLR 2026. [https://arxiv.org/pdf/2405.17293 \[PDF\]]\n
 - \[Mar 2026\] Our GNN acceleration survey paper is accepted by CSUR 2026. [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]]\n
-- \[Dec 2025\] Give a tutorial talk on explainable AI at NeurIPS 2025. [https://shichangzh.github.io/xaiTutorial/ \[website\]]
-- \[July 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been accepted by COLM 2025. [https://arxiv.org/pdf/2504.02904 \[PDF\]]\n
-- \[June 2025\] Selected as one of the top 10% of reviewers for KDD 2025 again for the February cycle. \n
-- \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has won the NENLP 2025 *Outstanding Paper Award*. [https://arxiv.org/pdf/2504.02904 \[PDF\]][slides/2025_04_NENLP.pdf \[slides\]]
-- \[Apr 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs has been selected as Oral presentation for NENLP 2025.
+- \[Dec 2025\] Gave a tutorial talk on explainable AI at NeurIPS 2025. [https://shichangzh.github.io/xaiTutorial/ \[website\]]
+- \[July 2025\] Our paper on A Mechanistic View of How Post-Training Reshapes LLMs is accepted by COLM 2025. [https://arxiv.org/pdf/2504.02904 \[PDF\]]\n
 
 
 [news.html Find out older news]
@@ -48,9 +40,6 @@ COLM 2025 (NENLP *Outstanding Paper*) [https://arxiv.org/pdf/2504.02904 \[PDF\]]
 . An Explainable AI Approach using Graph Learning to Predict ICU Length of Stay \n
 Tianjian Guo, Indranil Bardhan, Ying Ding, *Shichang Zhang* \n
 ISR Oct. 2024 [https://pubsonline.informs.org/doi/epdf/10.1287/isre.2023.0029 \[PDF (official)\]] [https://shichangzh.github.io/preprints/LoS_XAI_ISR.pdf \[PDF (preprint)\]]\n
-. Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks \n
-Haoyu Li\*, *Shichang Zhang\**, Longwen Tang, Mathieu Bauchy, Yizhou Sun (\*equal contribution) \n
-ICML 2024 [https://arxiv.org/pdf/2401.08627 \[PDF\]] [https://github.com/haoyuli02/SymGNN \[Code\]]\n
 . PaGE-Link: Graph Neural Network Explanation for Heterogeneous Link Prediction \n
 *Shichang Zhang*, Jiani Zhang, Xiang Song, Soji Adeshina, Da Zheng, Christos Faloutsos, Yizhou Sun \n
 WWW 2023 [https://arxiv.org/pdf/2302.12465.pdf \[PDF\]] [https://github.com/amazon-science/page-link-path-based-gnn-explanation \[Code\]]\n  
@@ -72,7 +61,7 @@ CSUR 2026 [https://arxiv.org/pdf/2306.14052.pdf \[PDF\]]\n
 - KDD Outstanding Reviewer (Top 10\%, two times for both Aug and Feb cycles), 2025
 - KDD Excellence in Reviewing (30 in 1551), 2023
 - [https://www.sciencehub.ucla.edu/2023-amazon-fellows/ Amazon Fellow], 2023
-- [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI PhD Fellowship], 2023
+- [https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship-2023 J.P. Morgan Chase AI Ph.D. Fellowship], 2023
 - [https://research.snap.com/fellowships.html Snap Research Fellowship Honorable Mention], 2022
 - ICML Top Reviewer (Top 10\%), 2022
 - UCLA Graduate Division Fellowship, 2021

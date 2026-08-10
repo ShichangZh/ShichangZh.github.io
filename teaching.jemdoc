@@ -1,5 +1,8 @@
-# jemdoc: menu{MENU}{teaching.html}, nofooter  
-== Shichang (Ray) Zhang 
+# jemdoc: menu{MENU}{teaching.html}, nofooter, title{Teaching · Shichang Zhang}
+= Teaching
+
+== Instructor at ASU
+- \[Fall 2026\] CIS 508 Machine Learning in Business
 
 == Instructor at UCLA
 - \[Summer 2024\] CS97 Introduction to Data Science [teaching/cs97/cs97.html \[Homepage\]]

@@ -1,367 +1,882 @@
-/* Default css file for jemdoc. */
+/* =====================================================================
+   Stylesheet for shichangzh.github.io
+   Styles the HTML that jemdoc generates -- no per-page classes required,
+   so ordinary jemdoc markup keeps working as-is.
 
-table#tlayout {
-    border: none;
-    border-collapse: separate;
-    background: white;
+   Contents
+     1. Design tokens (light + dark)
+     2. Base elements
+     3. Layout shell
+     4. Sidebar
+     5. Page titles and headings
+     6. Content: text, links, lists
+     7. Publication lists
+     8. Chips and date badges (added by site.js)
+     9. Hero / image tables
+    10. jemdoc blocks, code, tables, footer
+    11. Responsive
+    12. Print
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   1. Design tokens
+   ------------------------------------------------------------------ */
+:root {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Source Serif 4", "Iowan Old Style", Charter, Georgia,
+    "Times New Roman", serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+
+  --bg: #fbfaf8;
+  --bg-sidebar: #f4f2ed;
+  --surface: #ffffff;
+  --hover: #f0eee9;
+
+  --text: #14171c;
+  --text-muted: #575e69;
+  --text-subtle: #8b929d;
+
+  --border: #e5e2db;
+  --border-strong: #d3cec4;
+
+  --accent: #1f4d7a;
+  --accent-hover: #16385a;
+  --accent-soft: #e9f0f7;
+  --accent-on: #ffffff;
+  --link-underline: rgba(31, 77, 122, 0.28);
+
+  --shadow-sm: 0 1px 2px rgba(20, 23, 28, 0.06);
+  --shadow-md: 0 10px 30px -12px rgba(20, 23, 28, 0.28);
+
+  /* --content-w caps the reading column; the padding around it is what keeps
+     the measure comfortable, so child elements simply fill the column. */
+  --sidebar-w: 15rem;
+  --content-w: 84rem;
+  --radius: 10px;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0e1116;
+  --bg-sidebar: #12161d;
+  --surface: #161a22;
+  --hover: #1b2029;
+
+  --text: #e7eaef;
+  --text-muted: #a2aab6;
+  --text-subtle: #79818d;
+
+  --border: #252b35;
+  --border-strong: #343b47;
+
+  --accent: #82b4e6;
+  --accent-hover: #a6cbf0;
+  --accent-soft: #16212e;
+  --accent-on: #0e1116;
+  --link-underline: rgba(130, 180, 230, 0.35);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 10px 30px -12px rgba(0, 0, 0, 0.7);
+
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1116;
+    --bg-sidebar: #12161d;
+    --surface: #161a22;
+    --hover: #1b2029;
+
+    --text: #e7eaef;
+    --text-muted: #a2aab6;
+    --text-subtle: #79818d;
+
+    --border: #252b35;
+    --border-strong: #343b47;
+
+    --accent: #82b4e6;
+    --accent-hover: #a6cbf0;
+    --accent-soft: #16212e;
+    --accent-on: #0e1116;
+    --link-underline: rgba(130, 180, 230, 0.35);
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 10px 30px -12px rgba(0, 0, 0, 0.7);
+
+    color-scheme: dark;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   2. Base
+   ------------------------------------------------------------------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-	background: white;
-	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin: 0;
-}
-
-#layout-menu {
-	background: #f6f6f6;
-	border: 1px solid #dddddd;
-	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
-	width: auto;
-	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
-}
-
-#layout-menu td {
-	background: #f4f4f4;
-    vertical-align: top;
-}
-
-#layout-content {
-	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
-    border: none;
-    background: white;
-    text-align: left;
-    vertical-align: top;
-}
-
-#layout-menu a {
-	line-height: 1.5em;
-	margin-left: 0.5em;
-}
-
-tt {
-    background: #ffffdd;
-}
-
-pre, tt {
-	font-size: 90%;
-	font-family: monaco, monospace;
-}
-
-a, a > tt {
-	color: #224b8d;
-	text-decoration: none;
-}
-
-a:hover {
-	border-bottom: 1px gray dotted;
-}
-
-#layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #022b6d;
-	border-bottom: 1px gray solid;
-}
-#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #527bbd;
-	text-decoration: none;
-}
-#layout-menu a:hover {
-	text-decoration: none;
-}
-
-div.menu-category {
-	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.1em;
-	font-weight: bold;
-}
-
-div.menu-item {
-	padding-left: 16px;
-	text-indent: -16px;
-}
-
-div#toptitle {
-	padding-bottom: 0.2em;
-	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
-}
-
-/* Reduce space if we begin the page with a title. */
-div#toptitle + h2, div#toptitle + h3 {
-	margin-top: -0.7em;
-}
-
-div#subtitle {
-	margin-top: 0.0em;
-	margin-bottom: 0.0em;
-	padding-top: 0em;
-	padding-bottom: 0.1em;
-}
-
-em {
-	font-style: italic;
-}
-
-strong {
-	font-weight: bold;
-}
-
-
-h1, h2, h3 {
-	color: #527bbd;
-	margin-top: 0.7em;
-	margin-bottom: 0.3em;
-	padding-bottom: 0.2em;
-	line-height: 1.0;
-	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
-}
-
-h1 {
-	font-size: 165%;
-}
-
-h2 {
-	padding-top: 0.8em;
-	font-size: 125%;
-}
-
-h2 + h3 {
-    padding-top: 0.2em;
-}
-
-h3 {
-	font-size: 110%;
-	border-bottom: none;
-}
-
-p {
-	margin-top: 0.0em;
-	margin-bottom: 0.8em;
-	padding: 0;
-	line-height: 1.3;
-}
-
-pre {
-	padding: 0;
-	margin: 0;
-}
-
-div#footer {
-	font-size: small;
-	border-top: 1px solid #c0c0c0;
-	padding-top: 0.1em;
-	margin-top: 4.0em;
-	color: #c0c0c0;
-}
-
-div#footer a {
-	color: #80a0b0;
-}
-
-div#footer-text {
-	float: left;
-	padding-bottom: 8px;
-}
-
-ul, ol, dl {
-	margin-top: 0.2em;
-	padding-top: 0;
-	margin-bottom: 0.8em;
-}
-
-dt {
-	margin-top: 0.5em;
-	margin-bottom: 0;
-}
-
-dl {
-	margin-left: 20px;
-}
-
-dd {
-	color: #222222;
-}
-
-dd > *:first-child {
-	margin-top: 0;
-}
-
-ul {
-	list-style-position: outside;
-	list-style-type: square;
-}
-
-p + ul, p + ol {
-	margin-top: -0.5em;
-}
-
-li ul, li ol {
-	margin-top: -0.3em;
-}
-
-ol {
-	list-style-position: outside;
-	list-style-type: decimal;
-}
-
-li p, dd p {
-	margin-bottom: 0.3em;
-}
-
-
-ol ol {
-	list-style-type: lower-alpha;
-}
-
-ol ol ol {
-	list-style-type: lower-roman;
-}
-
-p + div.codeblock {
-	margin-top: -0.6em;
-}
-
-div.codeblock, div.infoblock {
-	margin-right: 0%;
-	margin-top: 1.2em;
-	margin-bottom: 1.3em;
-}
-
-div.blocktitle {
-	font-weight: bold;
-	color: #cd7b62;
-	margin-top: 1.2em;
-	margin-bottom: 0.1em;
-}
-
-div.blockcontent {
-	border: 1px solid silver;
-	padding: 0.3em 0.5em;
-}
-
-div.infoblock > div.blockcontent {
-	background: #ffffee;
-}
-
-div.blockcontent p + ul, div.blockcontent p + ol {
-	margin-top: 0.4em;
-}
-
-div.infoblock p {
-	margin-bottom: 0em;
-}
-
-div.infoblock li p, div.infoblock dd p {
-	margin-bottom: 0.5em;
-}
-
-div.infoblock p + p {
-	margin-top: 0.8em;
-}
-
-div.codeblock > div.blockcontent {
-	background: #f6f6f6;
-}
-
-span.pycommand {
-	color: #000070;
-}
-
-span.statement {
-	color: #008800;
-}
-span.builtin {
-	color: #000088;
-}
-span.special {
-	color: #990000;
-}
-span.operator {
-	color: #880000;
-}
-span.error {
-	color: #aa0000;
-}
-span.comment, span.comment > *, span.string, span.string > * {
-	color: #606060;
-}
-
-@media print {
-	#layout-menu { display: none; }
-}
-
-#fwtitle {
-	margin: 2px;
-}
-
-#fwtitle #toptitle {
-	padding-left: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-#layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
-	margin-top: -0.7em;
-}
-
-div#toptitle h1, #layout-content div#toptitle h1 {
-	margin-bottom: 0.0em;
-	padding-bottom: 0.1em;
-	padding-top: 0;
-	margin-top: 0.5em;
-	border-bottom: none;
-}
-
-img.eq {
-	padding: 0;
-	padding-left: 0.1em;
-	padding-right: 0.1em;
-	margin: 0;
-}
-
-img.eqwl {
-	padding-left: 2em;
-	padding-top: 0.6em;
-	padding-bottom: 0.2em;
-	margin: 0;
-}
-
-table {
-    border: 2px solid black;
-    border-collapse: collapse;
-}
-
-td {
-    padding: 2px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    text-align: center;
-    border: 1px solid gray;
-}
-
-table + table {
-    margin-top: 1em;
-}
-
-tr.heading {
-    font-weight: bold;
-    border-bottom: 2px solid black;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.68;
+  font-feature-settings: "kern" 1, "liga" 1, "cv05" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img {
-    border: none;
+  max-width: 100%;
+  height: auto;
 }
 
-table.imgtable, table.imgtable td {
-    border: none;
-    text-align: left;
+::selection {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.7rem 1.1rem;
+  background: var(--accent);
+  color: var(--accent-on);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 var(--radius) 0;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+/* ---------------------------------------------------------------------
+   3. Layout shell
+   ------------------------------------------------------------------ */
+#tlayout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#layout-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: var(--content-w);
+  margin: 0 auto;
+  padding: 3.75rem clamp(1.25rem, 3vw, 3.25rem) 5.5rem;
+}
+
+/* ---------------------------------------------------------------------
+   4. Sidebar
+   ------------------------------------------------------------------ */
+#layout-menu {
+  flex: 0 0 var(--sidebar-w);
+  width: var(--sidebar-w);
+  align-self: stretch;
+  background: var(--bg-sidebar);
+  border-right: 1px solid var(--border);
+}
+
+.menu-inner {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 4.25rem 1.6rem 2.5rem 2rem;
+}
+
+/* The first category doubles as the site wordmark. */
+.menu-category {
+  margin: 2.4rem 0 0.7rem;
+  color: var(--text-subtle);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.menu-category:first-child {
+  margin: 0 0 1.6rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  width: 100%;
+  color: var(--text);
+  font-family: var(--font-serif);
+  font-size: 1.32rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  text-transform: none;
+}
+
+.menu-item {
+  width: 100%;
+  margin: 0.1rem 0;
+}
+
+.menu-item a {
+  position: relative;
+  display: block;
+  padding: 0.3rem 0 0.3rem 0.85rem;
+  color: var(--text-muted);
+  font-size: 0.925rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.menu-item a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 2px;
+  height: 0;
+  background: var(--accent);
+  border-radius: 2px;
+  transform: translateY(-50%);
+  transition: height 0.18s ease;
+}
+
+.menu-item a:hover {
+  color: var(--text);
+  background: var(--hover);
+}
+
+.menu-item a.current {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.menu-item a.current::before {
+  height: 1.15rem;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 2.4rem;
+  padding: 0.34rem 0.75rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+  border-color: var(--text-subtle);
+  background: var(--hover);
+}
+
+.theme-toggle svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* ---------------------------------------------------------------------
+   5. Page title and headings
+   ------------------------------------------------------------------ */
+#toptitle {
+  margin: 0 0 2.75rem;
+  padding-bottom: 1.35rem;
+  border-bottom: 1px solid var(--border);
+}
+
+#toptitle h1 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(2.1rem, 1.5rem + 1.9vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+}
+
+#subtitle {
+  margin-top: 0.7rem;
+  color: var(--text-muted);
+  font-size: 1.02rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#layout-content h1,
+#layout-content h2,
+#layout-content h3,
+#layout-content h4 {
+  scroll-margin-top: 2rem;
+}
+
+#layout-content h2 {
+  position: relative;
+  margin: 3.4rem 0 1.35rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-serif);
+  font-size: 1.47rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+#layout-content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 2.6rem;
+  height: 2px;
+  background: var(--accent);
+}
+
+#layout-content h3 {
+  margin: 2.2rem 0 0.7rem;
+  color: var(--text-muted);
+  font-size: 0.79rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+#layout-content h4 {
+  margin: 1.6rem 0 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------------------
+   6. Text, links, lists
+   ------------------------------------------------------------------ */
+#layout-content p {
+  margin: 0 0 1.15rem;
+}
+
+#layout-content b,
+#layout-content strong {
+  font-weight: 600;
+  color: var(--text);
+}
+
+#layout-content a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+#layout-content a:hover {
+  color: var(--accent-hover);
+  text-decoration-color: currentColor;
+}
+
+#layout-content ul,
+#layout-content ol {
+  margin: 1.1rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+#layout-content li {
+  position: relative;
+  margin: 0 0 0.6rem;
+  padding-left: 1.15rem;
+}
+
+#layout-content li::before {
+  content: "";
+  position: absolute;
+  left: 0.1rem;
+  top: 0.78em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--border-strong);
+}
+
+/* Items that open with a date badge carry their own visual anchor. The badge is
+   lifted out of the text flow so continuation lines hang off it cleanly. */
+#layout-content li.dated {
+  padding-left: 7rem;
+}
+
+#layout-content li.dated::before {
+  display: none;
+}
+
+#layout-content li.dated .date-badge {
+  position: absolute;
+  left: 0;
+  top: 0.22em;
+  margin-right: 0;
+}
+
+#layout-content li p {
+  margin: 0 0 0.35rem;
+}
+
+#layout-content li > ul {
+  margin: 0.45rem 0 0.9rem;
+}
+
+#layout-content li > ul > li {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* ---------------------------------------------------------------------
+   7. Publication lists (ordered lists)
+   ------------------------------------------------------------------ */
+#layout-content ol {
+  counter-reset: pub;
+}
+
+#layout-content ol > li {
+  counter-increment: pub;
+  margin: 0 0 0.35rem -0.75rem;
+  padding: 0.55rem 0.75rem 0.6rem 3.1rem;
+  border-radius: var(--radius);
+  transition: background-color 0.15s ease;
+}
+
+#layout-content ol > li::before {
+  content: counter(pub);
+  position: absolute;
+  left: 0.75rem;
+  top: 0.62rem;
+  width: 1.6rem;
+  height: auto;
+  background: none;
+  border-radius: 0;
+  color: var(--text-subtle);
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+#layout-content ol > li:hover {
+  background: var(--hover);
+}
+
+#layout-content ol > li > p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------------
+   8. Chips and date badges (applied by site.js)
+   ------------------------------------------------------------------ */
+#layout-content a.chip {
+  display: inline-block;
+  margin: 0.18rem 0.28rem 0.18rem 0;
+  padding: 0.02rem 0.62rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.765rem;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: 0.06em;
+  transition: color 0.15s ease, background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+#layout-content a.chip:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-on);
+}
+
+/* Contact row: profile links rendered as icons (see site.js). */
+#layout-content p.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.3rem;
+  margin-top: 1.35rem;
+}
+
+#layout-content a.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+/* Fixed height, free width: each viewBox is cropped to its own ink, so the
+   marks share an optical height instead of a bounding-box width. */
+#layout-content a.icon-link svg {
+  display: block;
+  width: auto;
+  height: 1.85rem;
+  fill: currentColor;
+}
+
+#layout-content a.icon-link:hover {
+  color: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.date-badge {
+  display: inline-block;
+  min-width: 5.9rem;
+  margin-right: 0.75rem;
+  padding: 0.06rem 0.5rem;
+  border-radius: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.745rem;
+  font-weight: 600;
+  line-height: 1.62;
+  letter-spacing: 0.015em;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: 0.09em;
+}
+
+/* ---------------------------------------------------------------------
+   9. Hero and image tables (the ~~~ {}{img_left} block)
+   ------------------------------------------------------------------ */
+table.imgtable {
+  width: 100%;
+  margin: 0 0 1rem;
+  border-collapse: collapse;
+}
+
+table.imgtable tr {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  align-items: flex-start;
+}
+
+table.imgtable td {
+  display: block;
+  padding: 0;
+  vertical-align: top;
+}
+
+table.imgtable td:first-child {
+  flex: 0 0 auto;
+  /* jemdoc appends a filler &nbsp; after the image; zero it out so it does not
+     add a stray line box under the photo. */
+  font-size: 0;
+}
+
+table.imgtable td:last-child {
+  flex: 1 1 20rem;
+  min-width: 0;
+}
+
+table.imgtable img {
+  display: block;
+  width: 16rem;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: var(--shadow-md);
+}
+
+/* Needs the id to outrank the general "#layout-content h2" top margin, so the
+   hero heading lines up with the top of the photo beside it. */
+#layout-content table.imgtable td > h2:first-child {
+  margin-top: -0.18em;
+}
+
+/* ---------------------------------------------------------------------
+   10. jemdoc blocks, code, generic tables, footer
+   ------------------------------------------------------------------ */
+.infoblock,
+.codeblock {
+  margin: 1.5rem 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.blocktitle {
+  padding: 0.6rem 1.1rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-sidebar);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.blockcontent {
+  padding: 1.1rem;
+}
+
+.blockcontent > p:last-child {
+  margin-bottom: 0;
+}
+
+tt,
+code,
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+}
+
+tt {
+  padding: 0.1em 0.35em;
+  border-radius: 5px;
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+pre {
+  margin: 0;
+  overflow-x: auto;
+  line-height: 1.55;
+}
+
+.codeblock pre,
+.codeblock tt {
+  background: none;
+  padding: 0;
+}
+
+#layout-content table:not(.imgtable) {
+  width: 100%;
+  margin: 1.4rem 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+#layout-content table:not(.imgtable) th,
+#layout-content table:not(.imgtable) td {
+  padding: 0.55rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+#layout-content table:not(.imgtable) th {
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+#layout-content hr {
+  margin: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+#footer {
+  margin-top: 3.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-subtle);
+  font-size: 0.82rem;
+}
+
+/* ---------------------------------------------------------------------
+   11. Responsive
+   ------------------------------------------------------------------ */
+@media (max-width: 1080px) {
+  #layout-content {
+    padding: 3.5rem 2.75rem 5rem;
+  }
+}
+
+@media (max-width: 860px) {
+  #tlayout {
+    display: block;
+  }
+
+  #layout-menu {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .menu-inner {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.15rem 0.4rem;
+    max-height: none;
+    overflow: visible;
+    padding: 1.5rem 1.75rem;
+  }
+
+  .menu-category:first-child {
+    flex: 1 0 100%;
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.85rem;
+    font-size: 1.2rem;
+  }
+
+  /* Secondary group labels add noise in a single horizontal row. */
+  .menu-category:not(:first-child) {
+    display: none;
+  }
+
+  .menu-item {
+    width: auto;
+  }
+
+  .menu-item a {
+    padding: 0.28rem 0.7rem;
+    border: 1px solid transparent;
+    font-size: 0.875rem;
+  }
+
+  .menu-item a::before {
+    display: none;
+  }
+
+  .menu-item a.current {
+    background: var(--accent-soft);
+    border-color: var(--border);
+  }
+
+  .theme-toggle {
+    margin: 0 0 0 auto;
+  }
+
+  #layout-content {
+    padding: 2.75rem 1.75rem 4rem;
+  }
+
+  #toptitle {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 16px;
+  }
+
+  #layout-content {
+    padding: 2.25rem 1.25rem 3.5rem;
+  }
+
+  table.imgtable tr {
+    gap: 1.5rem;
+  }
+
+  table.imgtable img {
+    width: 11rem;
+  }
+
+  #layout-content ol > li {
+    padding-left: 2.6rem;
+  }
+
+  #layout-content ol > li::before {
+    left: 0.5rem;
+  }
+
+  /* Too narrow for a hanging indent -- let the badge sit on its own line. */
+  #layout-content li.dated {
+    padding-left: 0;
+  }
+
+  #layout-content li.dated .date-badge {
+    position: static;
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 0;
+    margin: 0 0 0.2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   12. Print
+   ------------------------------------------------------------------ */
+@media print {
+  #layout-menu,
+  .theme-toggle,
+  .skip-link {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+
+  #layout-content {
+    max-width: none;
+    padding: 0;
+  }
+
+  #layout-content a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  #layout-content a.chip {
+    border-color: #999;
+  }
+
+  #layout-content ol > li,
+  #layout-content li {
+    page-break-inside: avoid;
+  }
 }

@@ -1,38 +1,38 @@
-# jemdoc: menu{MENU}{talks.html}, nofooter  
-== Shichang (Ray) Zhang 
+# jemdoc: menu{MENU}{talks.html}, nofooter, title{Talks · Shichang Zhang}
+= Talks
 
 == Tutorial
 - Explain AI Models: Methods and Opportunities in Explainable AI, Data-Centric AI, and Mechanistic Interpretability \n
--- \[Dec 2025] NeurIPS 2025 [https://shichangzh.github.io/xaiTutorial/ \[website\]][https://drive.google.com/file/d/1tJfulzhQkkEqvOikUG1PpLKi1KD8R6BI/view?usp=sharing \[slides\]]
+-- \[Dec 2025\] NeurIPS 2025 [https://shichangzh.github.io/xaiTutorial/ \[website\]][https://drive.google.com/file/d/1tJfulzhQkkEqvOikUG1PpLKi1KD8R6BI/view?usp=sharing \[slides\]]
 
-== Talks of My Research
+== Talks on My Research
 - A Holistic Scientific Understanding for Trustworthy AI \n
 -- \[Jan - Feb 2026\] Arizona State University, Mohamed bin Zayed University of Artificial Intelligence, University of Tennessee Knoxville, Pennsylvania State University, University of Massachusetts Boston
 - How Post-Training Reshapes LLMs \n
--- \[April 2025\] New England NLP Meeting [slides/2025_04_NENLP.pdf \[slides\]]\n
-- Peering into The Mind of AI \n
--- \[April 2025\] Seminar at Georgia Institute of Technology [slides/2025_04_Interpretability_GT.pdf \[slides\]]\n
+-- \[Apr 2025\] New England NLP Meeting [slides/2025_04_NENLP.pdf \[slides\]]\n
+- Peering into the Mind of AI \n
+-- \[Apr 2025\] Seminar at Georgia Institute of Technology [slides/2025_04_Interpretability_GT.pdf \[slides\]]\n
 - Interpreting AI Systems Through Features, Data, and Model Components \n
--- \[April 2025\] Data Mining Seminar at Emory [slides/2025_04_Unify_FA_DA_CA_emory.pdf \[slides\]]\n
+-- \[Apr 2025\] Data Mining Seminar at Emory [slides/2025_04_Unify_FA_DA_CA_emory.pdf \[slides\]]\n
 - Explainable AI for Graph Data and More \n
 -- \[Feb 2024\] AI4LIFE Group at Harvard \[slides may be shared upon request\]\n
 - Graph Neural Network Explanation for Heterogeneous Link Prediction \n
--- \[July 2023\] Amazon Trans.AI Research Talks [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
+-- \[July 2023\] Amazon Trans.AI Research Talk Series [slides/2023_07_PaGELink_AmazonTransAI.pdf \[slides\]]
 -- \[May 2023\] International World Wide Web Conference [slides/2023_05_PaGELink_WWW.pdf \[slides\]] [https://www.youtube.com/watch?v=b4zto-jEB9k \[video\]] \n
 
 - Structure-Aware Graph Neural Network Explanation \n
-\[Feb 2023\] AI Time NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]]
+-- \[Feb 2023\] AI TIME NeurIPS Talk Series [slides/2023_02_GStarX_AI_Time.pdf \[slides\]][https://www.bilibili.com/video/BV1ZA411y7GG/?vd_source=763d93c2ed1e1d69221e3a639815abcb \[video (in Chinese, starting from 00:19:05)\]]
 - Graph-less Neural Networks \n
-\[May 2022\] NVIDIA GNN Reading Group [slides/2022_05_GLNN_NVIDIA.pdf \[slides\]]
+-- \[May 2022\] NVIDIA GNN Reading Group [slides/2022_05_GLNN_NVIDIA.pdf \[slides\]]
 
 == Talks at UCLA Data Mining Reading Group
 
 - \[Feb 2024\] Explain AI Models by Locating and Editing Knowledge [slides/2024_02_knowledge.pdf \[slides\]][https://www.youtube.com/watch?v=CSOPpdDn03M \[video\]]
 - \[Nov 2022\] Recent Progress in GNN Explainability [slides/2022_11_GNN_Explainability2.pdf \[slides\]]
 - \[Oct 2022\] Diffusion Models For Text To Image Generation [slides/2022_10_Diffusion_models_for_text_to_image_generation.pdf \[slides\]]
-- \[April 2022\] The Lottery Ticket Hypothesis and Its Application on GNNs [slides/2022_04_The_Lottery_Ticket_Hypothesis.pdf \[slides\]]
+- \[Apr 2022\] The Lottery Ticket Hypothesis and Its Application on GNNs [slides/2022_04_The_Lottery_Ticket_Hypothesis.pdf \[slides\]]
 - \[Nov 2021\] GNN Explainability [slides/2021_11_GNN_Explainability.pdf \[slides\]][miscellaneous/Explainability.pdf \[mind map\]]
-- \[April 2021\] Gaussian Process and Determinantal Point Process [slides/2021_04_Gaussian_Process_and_Determinantal_Point_Process.pdf \[slides\]]
+- \[Apr 2021\] Gaussian Process and Determinantal Point Process [slides/2021_04_Gaussian_Process_and_Determinantal_Point_Process.pdf \[slides\]]
 - \[Jan 2021\] Analyzing GNNs, A Spectral Perspective [slides/2021_01_Analyzing_GNNs_A_Spectral_Perspective.pdf \[slides\]]
 - \[May 2020\] From Variational Inference to Variational Auto Encoder [slides/2020_05_From_Variational_Inference_to_Variational_Auto_Encoder.pdf \[slides\]]
 - \[Sept 2019\] Probability and Sampling Methods [slides/2019_09_sampling1.pdf \[slides part1\]] [slides/2019_09_sampling2.pdf \[slides part2\]]
