@@ -48,6 +48,9 @@ ICLR 2022 [https://arxiv.org/pdf/2110.07580.pdf \[PDF\]] [https://github.com/Cha
 
 
 == Journal Articles
+. A Survey of Data Attribution: Methods, Applications, and Evaluation in the Era of Generative AI \n
+Junwei Deng\*, Yuzheng Hu\*, Pingbang Hu\*, Ting-Wei Li\*, Shixuan Liu\*, Jiachen T. Wang, Dan Ley, Qirun Dai, Benhao Huang, Jin Huang, Cathy Jiao, Hoang Anh Just, Yijun Pan, Jingyan Shen, Yiwen Tu, Weiyi Wang, Xinhe Wang, *Shichang Zhang*, Shiyuan Zhang, Ruoxi Jia, Himabindu Lakkaraju, Hao Peng, Weijing Tang, Chenyan Xiong, Jieyu Zhao, Hanghang Tong, Han Zhao, Jiaqi W. Ma (\*equal contribution) \n
+JAIR 2026 [https://hal.science/hal-05230469v1/document \[PDF\]]\n
 . Efficient Ensembles Improve Training Data Attribution \n
 Junwei Deng\*, Ting-Wei Li\*, *Shichang Zhang*, Jiaqi Ma (\*equal contribution) \n
 TMLR 2026 [https://arxiv.org/pdf/2405.17293 \[PDF\]] [https://github.com/TRAIS-Lab/dattri \[Code\]]\n
